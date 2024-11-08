@@ -38,14 +38,18 @@ body {
 .header, .site-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
 }
 
 /* Title */
 
 .title, .logo {
-    padding: 3em 3em 3em 0;
+    padding: 1em 3em 1em 0;
 }
-
+.title h1 {
+    font-size: 1.6em;
+}
 @media (max-width: 767px) {
     .title, .logo {
         padding: 1em 1em 1em 0;
@@ -83,6 +87,7 @@ body {
 }
 .social a {
     text-decoration: none;
+    color: whitesmoke;
 }
 /* Typografy */
 
