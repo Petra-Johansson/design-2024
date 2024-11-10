@@ -1,3 +1,9 @@
+:root {
+    --primary-light: rgb(241, 246, 249);
+    --primary-dark: #111;
+    --bg: rgb(122, 220, 247);
+}
+
 * {
     box-sizing: border-box;
     border: 0 none;
@@ -15,6 +21,7 @@ ol, ul {
 
 html, body {
     height: 100%;
+    overflow-x: hidden;
 }
 
 /* Placement */
@@ -22,25 +29,41 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    background-color: rgb(167, 214, 227);
+    background-image: linear-gradient( to bottom right, 
+    var(--bg),
+    var(--primary-light)
+    );
 }
 
 .main {
     flex: 1 0 auto;
+    margin:0 auto;
+    padding:2em;
+
+    h1 {
+        text-align: center;
+    }
 }
+
 
 .header, .footer {
     flex: 0 0 auto;
 }
 
+.image-of-me {
+    border-radius: 50%;
+    float: left;
+    margin-right: 3em;
+    margin-top: 3em;
+}
 /* Header */
 
 .header, .site-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
+
 
 /* Title */
 
@@ -48,7 +71,12 @@ body {
     padding: 1em 3em 1em 0;
 }
 .title h1 {
-    font-size: 1.6em;
+    font-size: 1.4em;
+}
+
+.logo {
+max-width: 250px;
+max-height: 250px;;
 }
 @media (max-width: 767px) {
     .title, .logo {
@@ -56,6 +84,10 @@ body {
     }
     .title {
         min-width: 50%;
+
+        h1 {
+            font-size: 1em;
+        }
     }
     .logo {
         max-width: 30%;
@@ -63,19 +95,45 @@ body {
 }
 
 .title * {
-    color: #111;
+    color: (var(--primary-dark));
 }
 
 .title p {
     font-style: italic;
 }
 
+
+/* Nav */
+
+.nav {
+    padding-right: .5em;
+
+    a {
+        text-decoration: none;
+        letter-spacing: .5px;
+        text-transform: uppercase;
+    
+        &:hover {
+            font-style: italic;
+            text-decoration: underline;
+            text-underline-offset: 5px;
+            
+        }
+    }
+}
+@media (max-width: 767px) {
+    .nav a {
+        margin: 0;
+    }
+    
+}
 /* Footer */
 
 .footer {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #222;
+    padding: 1em;
 }
 
 .footer a {
@@ -87,7 +145,7 @@ body {
 }
 .social a {
     text-decoration: none;
-    color: whitesmoke;
+    padding: .6em;
 }
 /* Typografy */
 
@@ -104,13 +162,19 @@ p, td, th, li, dd {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 0.6em;
+    margin-bottom: 0.8em;
+    margin-top: 0.3em;
     font-weight: bold;
 }
-
+p {
+    margin-bottom: .6em;
+    max-width: 90ch;
+}
 img {
     max-width: 100%;
 }
+
+
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
 

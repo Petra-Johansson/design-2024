@@ -3,7 +3,7 @@ Title: Hobby
 Description: Page about my hobby
 ---
 
-Min hobby
+Hobbies
 ==================
 
-Innan jag skaffade barn spenderade jag enormt mycket tid med att träna, gå på konserter och festivaler. Nu skulle man kunna säga att min hobby är att aggera klätterträd.
+Before I had my first child, I spent a huge amount of time at the gym, going to concerts and festivals nad having nice drinks and dinners with friends. Now, I guess you could say that my hobby is being my child's climbing tree.
