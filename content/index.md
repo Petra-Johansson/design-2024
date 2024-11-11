@@ -6,8 +6,13 @@ Description: This is our index page.
 Welcome!
 ==========================
 
+<aside class="aside">
+<figure>
+<img src="%base_url%?assets/img/me-small.png" class="image-of-me" alt="picture of me">
+</figure>
+</aside>
 
-![Picture of me](%base_url%/image/me-small.png){.image-of-me}
+[commented out ![Picture of me](%base_url%/image/me-small.png){.image-of-me}]: #
 
 ## Short presentation about me
 

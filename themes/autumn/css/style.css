@@ -1,0 +1,218 @@
+:root {
+    --primary-light: rgb(241, 246, 249);
+    --primary-dark: #111;
+    --bg: rgb(122, 220, 247);
+}
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* Placement */
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient( to bottom right, 
+    var(--bg),
+    var(--primary-light)
+    );
+}
+
+.main {
+    flex: 1 0 auto;
+    margin:0 auto;
+    padding:2em;
+
+    h1 {
+        text-align: center;
+    }
+}
+
+
+.header, .footer {
+    flex: 0 0 auto;
+}
+
+.image-of-me {
+    border-radius: 50%;
+    float: left;
+    margin-right: 3em;
+    margin-top: 3em;
+}
+/* Header */
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Title */
+
+.title, .logo {
+    padding: 1em 3em 1em 0;
+}
+.title h1 {
+    font-size: 1.4em;
+}
+
+.logo {
+max-width: 250px;
+max-height: 250px;;
+}
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+    .title {
+        min-width: 50%;
+
+        h1 {
+            font-size: 1em;
+        }
+    }
+    .logo {
+        max-width: 30%;
+    }
+}
+
+.title * {
+    color: (var(--primary-dark));
+}
+
+.title p {
+    font-style: italic;
+}
+
+
+/* Nav */
+
+.nav {
+    padding-right: .5em;
+
+    a {
+        text-decoration: none;
+        letter-spacing: .5px;
+        text-transform: uppercase;
+    
+        &:hover {
+            font-style: italic;
+            text-decoration: underline;
+            text-underline-offset: 5px;
+            
+        }
+    }
+}
+@media (max-width: 767px) {
+    .nav a {
+        margin: 0;
+    }
+    
+}
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #222;
+    padding: 1em;
+}
+
+.footer a {
+    color: #222;
+}
+
+.footer .social {
+    font-size: 2rem;
+}
+.social a {
+    text-decoration: none;
+    padding: .6em;
+}
+/* Typografy */
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5rem;
+    color: #444;
+}
+
+p, td, th, li, dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.8em;
+    margin-top: 0.3em;
+    font-weight: bold;
+}
+p {
+    margin-bottom: .6em;
+    max-width: 90ch;
+}
+img {
+    max-width: 100%;
+}
+
+
+
+/* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
+
+/* Code */
+
+code {
+    margin: 0 0.1em;
+    padding: 0.1em 0.2em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    background: #f5f5f5;
+    font-family: monospace;
+    font-size: 0.85rem;
+    line-height: 1.9824;
+}
+
+pre {
+    padding: 0 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    background: #f5f5f5;
+}
+
+pre code {
+    display: block;
+    margin: 0;
+    padding: 1.1111em 0;
+    border: 0 none;
+    background: transparent;
+    overflow-x: auto;
+    line-height: 1.4;
+}
+
+/* Blockquote */
+
+blockquote {
+    font-style: italic;
+    margin-left: 1em;
+    padding-left: 1em;
+    border-left: 0.5em solid #f5f5f5;
+}
