@@ -16,6 +16,9 @@ Welcome!
 
 ## Short presentation about me
 
+Hello! <span class="greeting"> &#128075;&#127996; </span>
+
+
 I am Petra, and this is going to be my portfolio!
 
 After spending ~10 years in the service industry, I made the decision to try something, for me, completely new.
