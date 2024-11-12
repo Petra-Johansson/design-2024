@@ -6422,14 +6422,16 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
-.header, .site-header {
+.header,
+.site-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 /* Title */
-.title, .logo {
+.title,
+.logo {
   padding: 1em 3em 1em 0;
 }
 
@@ -6443,7 +6445,8 @@ readers do not read off random characters that represent icons */
 }
 
 @media (max-width: 767px) {
-  .title, .logo {
+  .title,
+  .logo {
     padding: 1em 1em 1em 0;
   }
   .title {
@@ -6467,6 +6470,13 @@ readers do not read off random characters that represent icons */
 /* Nav */
 .nav {
   padding-right: 0.5em;
+}
+.nav ul li {
+  padding: 1em;
+}
+.nav .active {
+  background-color: #f7c6d0;
+  border-radius: 10px;
 }
 .nav a {
   text-decoration: none;
@@ -6529,6 +6539,9 @@ code {
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
 }
 
 pre {

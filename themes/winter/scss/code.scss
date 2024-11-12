@@ -7,6 +7,9 @@ code {
     font-family: monospace;
     font-size: 0.85rem;
     line-height: 1.9824;
+    word-wrap: break-word;
+    white-space: pre-wrap; 
+    overflow-wrap: break-word;
 }
 
 pre {

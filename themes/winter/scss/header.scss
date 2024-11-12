@@ -1,68 +1,73 @@
-.header, .site-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header,
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
 
 /* Title */
 
-.title, .logo {
-    padding: 1em 3em 1em 0;
+.title,
+.logo {
+  padding: 1em 3em 1em 0;
 }
 .title h1 {
-    font-size: 1.4em;
+  font-size: 1.4em;
 }
 
 .logo {
-max-width: 250px;
-max-height: 250px;;
+  max-width: 250px;
+  max-height: 250px;
 }
 @media (max-width: 767px) {
-    .title, .logo {
-        padding: 1em 1em 1em 0;
-    }
-    .title {
-        min-width: 50%;
+  .title,
+  .logo {
+    padding: 1em 1em 1em 0;
+  }
+  .title {
+    min-width: 50%;
 
-        h1 {
-            font-size: 1em;
-        }
+    h1 {
+      font-size: 1em;
     }
-    .logo {
-        max-width: 30%;
-    }
+  }
+  .logo {
+    max-width: 30%;
+  }
 }
 
 .title * {
-    color: (var(--primary-dark));
+  color: (var(--primary-dark));
 }
 
 .title p {
-    font-style: italic;
+  font-style: italic;
 }
-
 
 /* Nav */
 .nav {
-    padding-right: .5em;
+  padding-right: 0.5em;
+ ul li {
+    padding: 1em;
+  }
+  .active {
+    background-color: $accent-color;
+    border-radius: 10px;
+  }
+  a {
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
 
-    a {
-        text-decoration: none;
-        letter-spacing: .5px;
-        text-transform: uppercase;
-    
-        &:hover {
-            font-style: italic;
-            text-decoration: underline;
-            text-underline-offset: 5px;
-            
-        }
+    &:hover {
+      font-style: italic;
+      text-decoration: underline;
+      text-underline-offset: 5px;
     }
+  }
 }
 @media (max-width: 767px) {
-    .nav a {
-        margin: 0;
-    }
-    
+  .nav a {
+    margin: 0;
+  }
 }
