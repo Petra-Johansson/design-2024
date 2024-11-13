@@ -6606,7 +6606,7 @@ pre code {
   flex: 1 0 auto;
   margin: 0 auto;
   padding: 2em;
-  width: 85ch;
+  width: 90%;
 }
 .main h1 {
   text-align: center;
@@ -6617,16 +6617,43 @@ pre code {
   text-align: center;
 }
 .main .presentation {
+  margin: 0 auto;
+  width: 75%;
   display: grid;
-  grid-template-columns: 20% 50% 30%;
-  gap: 2em;
+  grid-template-columns: auto;
+  gap: 3rem;
+  grid-template-areas: "image pres-pres pres-goal";
+}
+.main .presentation .pres-image {
+  grid-area: image;
+  margin: 0;
+}
+.main .presentation .pres-pres {
+  grid-area: pres-pres;
+}
+.main .presentation .pres-goal {
+  grid-area: pres-goal;
 }
 .main .presentation .image-of-me {
-  border-radius: 50%;
-  float: left;
-  margin-right: 3em;
+  border-radius: 20%;
+}
+.main .presentation .pres-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+@media (max-width: 900px) {
+  .main .presentation {
+    grid-template-columns: 1fr;
+    grid-template-areas: "pres-pres" "image" "pres-goal";
+    justify-items: center;
+    padding: 0;
+  }
+  .main .presentation p {
+    max-width: 65ch;
+  }
+}
 @media (max-width: 767px) {
   .main {
     width: 90%;
@@ -6634,9 +6661,6 @@ pre code {
   }
   .main h1 {
     font-size: 1.5em;
-  }
-  .main .presentation {
-    grid-template-columns: 1fr;
   }
 }
 .header,
