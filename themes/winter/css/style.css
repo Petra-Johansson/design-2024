@@ -6414,6 +6414,7 @@ ul {
 p,
 li {
   margin-bottom: 0.6em;
+  max-width: 75ch;
 }
 
 img {
@@ -6574,13 +6575,13 @@ table th {
   text-decoration: none;
   padding: 0.6em;
 }
-@media screen and (max-width: 480px) {
-  .footer .footer {
+
+@media screen and (max-width: 768px) {
+  .footer {
     flex-direction: column;
     align-items: center;
   }
 }
-
 blockquote {
   font-style: italic;
   margin-left: 1em;
@@ -6628,7 +6629,6 @@ pre code {
   flex: 1 0 auto;
   margin: 0 auto;
   padding: 2em;
-  width: 80%;
 }
 .main h1 {
   text-align: center;
