@@ -13,6 +13,7 @@ $fa-font-path: "../../shared/fontawesome/webfonts";
 @import "footer";
 @import "blockquotes";
 @import "code";
+@import "test";
 
 .hidden {
   display: none !important;
@@ -22,7 +23,7 @@ $fa-font-path: "../../shared/fontawesome/webfonts";
   flex: 1 0 auto;
   margin: 0 auto;
   padding: 2em;
-  width: 90%;
+  width: 80%;
 
   h1 {
     text-align: center;
@@ -56,6 +57,7 @@ $fa-font-path: "../../shared/fontawesome/webfonts";
     }
     .image-of-me {
       border-radius: 20%;
+      box-shadow: 5px 5px 6px lighten($background-color, 10%);
     }
       .pres-image {
     display: flex;
@@ -95,22 +97,12 @@ $fa-font-path: "../../shared/fontawesome/webfonts";
   }
 }
 
+.palette-img {
+  border:1px solid $font-color;
+}
+
 .header,
 .footer {
   flex: 0 0 auto;
 }
 
-p,
-li {
-  margin-bottom: 0.6em;
-}
-img {
-  max-width: 100%;
-}
-table {
-  margin: 2em 0;
-
-  th {
-    background-color: $font-alternative-color;
-  }
-}

@@ -6371,7 +6371,8 @@ readers do not read off random characters that represent icons */
   width: auto;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   overflow-x: hidden;
 }
@@ -6395,15 +6396,35 @@ body {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   margin-bottom: 0.8em;
   margin-top: 1em;
 }
 
-ol, ul {
+ol,
+ul {
   padding-left: 1.5em;
+}
+
+p,
+li {
+  margin-bottom: 0.6em;
+}
+
+img {
+  max-width: 100%;
+}
+
+table {
+  margin: 2em 0;
+}
+table th {
+  background-color: #fff;
 }
 
 /*!
@@ -6511,8 +6532,9 @@ ol, ul {
   padding: 1em;
 }
 .nav .active {
-  background-color: #f7c6d0;
+  background-color: rgb(253.2769230769, 242.7230769231, 244.8769230769);
   border-radius: 10px;
+  box-shadow: 5px 5px 6px #f7c6d0;
 }
 .nav a {
   text-decoration: none;
@@ -6536,29 +6558,29 @@ ol, ul {
   border-top: 1px solid #222;
   padding: 1em;
 }
-
 .footer a {
   color: #333;
 }
-
 .footer .social {
-  font-size: 2rem;
+  font-size: 2em;
 }
-
-.social .fab, .social .fas, .social .fa {
+.footer .social .fab,
+.footer .social .fas,
+.footer .social .fa {
   color: #fff;
+  font-weight: 700;
 }
-.social a {
+.footer .social a {
   text-decoration: none;
   padding: 0.6em;
 }
-
 @media screen and (max-width: 480px) {
-  .footer {
+  .footer .footer {
     flex-direction: column;
     align-items: center;
   }
 }
+
 blockquote {
   font-style: italic;
   margin-left: 1em;
@@ -6606,7 +6628,7 @@ pre code {
   flex: 1 0 auto;
   margin: 0 auto;
   padding: 2em;
-  width: 90%;
+  width: 80%;
 }
 .main h1 {
   text-align: center;
@@ -6636,6 +6658,7 @@ pre code {
 }
 .main .presentation .image-of-me {
   border-radius: 20%;
+  box-shadow: 5px 5px 6px rgb(102.6652173913, 135.5217391304, 178.3347826087);
 }
 .main .presentation .pres-image {
   display: flex;
@@ -6663,23 +6686,11 @@ pre code {
     font-size: 1.5em;
   }
 }
+.palette-img {
+  border: 1px solid #333;
+}
+
 .header,
 .footer {
   flex: 0 0 auto;
-}
-
-p,
-li {
-  margin-bottom: 0.6em;
-}
-
-img {
-  max-width: 100%;
-}
-
-table {
-  margin: 2em 0;
-}
-table th {
-  background-color: #fff;
 }

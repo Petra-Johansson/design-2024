@@ -3,8 +3,8 @@ Title: About
 Description: About page
 ---
 
-About this page
-==================
+<span class="greeting">&#9758;</span>  About this page 
+==========================
 
 On this page I will write about the development of this website. First of, I will present the techniques we are currently working with.
 

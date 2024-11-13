@@ -51,8 +51,9 @@
     padding: 1em;
   }
   .active {
-    background-color: $accent-color;
+    background-color: lighten($accent-color, 10%);
     border-radius: 10px;
+    box-shadow: 5px 5px 6px $accent-color;
   }
   a {
     text-decoration: none;
