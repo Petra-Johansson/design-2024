@@ -1,0 +1,33 @@
+@import 'variables';
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+html {
+    line-height: 1.2;
+  -webkit-text-size-adjust: 100%;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+body {
+     display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom right, $accent-color, $background-alternative-color, $background-color);
+}
+
+* {
+    color: $font-color;
+    font-family: $paragraph-font;
+    box-sizing: border-box;
+}
+h1, h2,h3,h4 {
+    font-family: $heading-font;
+    font-weight: 600;
+    margin-bottom: 0.8em;
+    margin-top: 1em;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
