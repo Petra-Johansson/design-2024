@@ -5,7 +5,10 @@
 
     <div class="main" role="main">
         {{ content }}
-         {% include 'incl/presentation.twig' %}
+        
+        {% if current_page.id == 'index' %}
+            {% include 'incl/presentation.twig' %}
+        {% endif %}
     </div>
     
     {% include 'incl/footer.twig' %}
