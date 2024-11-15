@@ -6534,7 +6534,7 @@ table th {
 }
 .nav .active {
   background-color: rgb(253.2769230769, 242.7230769231, 244.8769230769);
-  border-radius: 10px;
+  border-radius: 10px 30px;
   box-shadow: 5px 5px 6px #f7c6d0;
 }
 .nav a {
@@ -6622,6 +6622,44 @@ pre code {
   line-height: 1.4;
 }
 
+.landingpage {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80vw;
+  gap: 1.96em;
+}
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+.landingpage .box {
+  border: 2px solid #f7c6d0;
+  border-radius: 10px 30px;
+  padding: 1.4em;
+  grid-column: 1 auto;
+}
+.landingpage .box2 {
+  grid-column: span 2;
+}
+.landingpage .box3 {
+  grid-column: span 3;
+}
+
+@media (max-width: 767px) {
+  .landingpage {
+    grid-template-columns: 1fr;
+  }
+  .landingpage h1 {
+    grid-column: auto;
+  }
+  .landingpage .box, .landingpage .box2, .landingpage .box3 {
+    grid-column: auto;
+  }
+}
+.tech-landing {
+  display: grid;
+}
+
 .hidden {
   display: none !important;
 }
@@ -6684,7 +6722,7 @@ pre code {
     padding: 0.3em;
   }
   .main h1 {
-    font-size: 1.5em;
+    font-size: 1.6em;
   }
 }
 .palette-img {
