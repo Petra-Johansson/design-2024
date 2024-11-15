@@ -6,7 +6,6 @@
     "example": "example"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
     "style": "sass winter/scss/style.scss winter/css/style.css --no-source-map",
     "style-min": "sass winter/scss/style.scss winter/css/style.min.css --no-source-map --style compressed",

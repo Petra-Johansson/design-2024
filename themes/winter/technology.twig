@@ -5,13 +5,19 @@
 
     <div class="main" role="main">
         <div class="tech-landing">
-            <aside class="sidebar">
-         
-            </aside>
-<atricle>
+            <aside class="tech-sidebar">
+            <h2>Techs:</h2>
+            <div>
+            {% for page in pages("technology") %}
 
-{{content}}
-</article>
+            <h3> {{ page.title }}</h3>
+
+            {% endfor %}
+            </div>
+            </aside>
+            <article class="tech-grid">
+                {{content}}
+            </article>
         </div>
     </div>
     
