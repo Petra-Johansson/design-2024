@@ -10,8 +10,7 @@
             <div>
             {% for page in pages("technology") %}
 
-            <h3> {{ page.title }}</h3>
-
+                <h3><a href="{{ base_url }}/technology/{{ page.title }}"> {{ page.title }} </a></h3>
             {% endfor %}
             </div>
             </aside>
