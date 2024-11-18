@@ -6665,7 +6665,9 @@ pre code {
   .tech-landing h1 {
     grid-column: auto;
   }
-  .landingpage .box, .landingpage .box2, .landingpage .box3,
+  .landingpage .box,
+  .landingpage .box2,
+  .landingpage .box3,
   .tech-landing .box,
   .tech-landing .box2,
   .tech-landing .box3 {

@@ -11,6 +11,7 @@
 .logo {
   padding: 1em 3em 1em 0;
 }
+
 .title h1 {
   font-size: 1.4em;
 }
@@ -24,6 +25,7 @@
   .logo {
     padding: 1em 1em 1em 0;
   }
+
   .title {
     min-width: 50%;
 
@@ -31,6 +33,7 @@
       font-size: 1em;
     }
   }
+
   .logo {
     max-width: 30%;
   }
@@ -47,14 +50,17 @@
 /* Nav */
 .nav {
   padding-right: 0.5em;
- ul li {
+
+  ul li {
     padding: 1em;
   }
+
   .active {
     background-color: lighten($accent-color, 10%);
     border-radius: 10px 30px;
     box-shadow: 5px 5px 6px $accent-color;
   }
+
   a {
     text-decoration: none;
     letter-spacing: 0.5px;

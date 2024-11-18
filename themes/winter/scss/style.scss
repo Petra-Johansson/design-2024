@@ -1,20 +1,20 @@
-@import "../../node_modules/normalize.css/normalize";
-@import "../../shared/fontawesome/scss/fontawesome";
-@import "base";
+@import '../../node_modules/normalize.css/normalize';
+@import '../../shared/fontawesome/scss/fontawesome';
+@import 'base';
 
-$fa-font-path: "../../shared/fontawesome/webfonts";
-@import "../../shared/fontawesome/scss/brands";
-@import "../../shared/fontawesome/scss/solid";
-@import "../../shared/fontawesome/scss/regular";
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
 
-@import "variables";
+@import 'variables';
 
-@import "header";
-@import "footer";
-@import "blockquotes";
-@import "code";
-@import "technology";
-@import "test";
+@import 'header';
+@import 'footer';
+@import 'blockquotes';
+@import 'code';
+@import 'technology';
+@import 'test';
 
 .hidden {
   display: none !important;
@@ -41,11 +41,11 @@ $fa-font-path: "../../shared/fontawesome/webfonts";
     display: grid;
     grid-template-columns: auto;
     gap: 3rem;
-    grid-template-areas: "image pres-pres pres-goal";
+    grid-template-areas: 'image pres-pres pres-goal';
 
     .pres-image {
       grid-area: image;
-      margin:0;
+      margin: 0;
     }
 
     .pres-pres {
@@ -55,15 +55,17 @@ $fa-font-path: "../../shared/fontawesome/webfonts";
     .pres-goal {
       grid-area: pres-goal;
     }
+
     .image-of-me {
       border-radius: 20%;
       box-shadow: 5px 5px 6px lighten($background-color, 10%);
     }
-      .pres-image {
-    display: flex;
-    align-items: center; 
-    justify-content: center;
-  }
+
+    .pres-image {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
 }
 
@@ -72,15 +74,15 @@ $fa-font-path: "../../shared/fontawesome/webfonts";
     .presentation {
       grid-template-columns: 1fr;
       grid-template-areas:
-        "pres-pres"
-        "image"
-        "pres-goal";
-        justify-items: center;
-        padding: 0;
+        'pres-pres'
+        'image'
+        'pres-goal';
+      justify-items: center;
+      padding: 0;
 
-        p {
-            max-width: 65ch; 
-        }
+      p {
+        max-width: 65ch; 
+      }
     }
 
   }
@@ -98,7 +100,7 @@ $fa-font-path: "../../shared/fontawesome/webfonts";
 }
 
 .palette-img {
-  border:1px solid $font-color;
+  border: 1px solid $font-color;
 }
 
 .header,
