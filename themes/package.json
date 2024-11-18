@@ -7,10 +7,14 @@
   },
   "scripts": {
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass winter/scss/style.scss winter/css/style.css --no-source-map",
-    "style-min": "sass winter/scss/style.scss winter/css/style.min.css --no-source-map --style compressed",
-    "watch": "sass winter/scss/style.scss winter/css/style.css --no-source-map --watch",
-    "watch-style-min": "sass winter/scss/style.scss winter/css/style.min.css --no-source-map --style compressed --watch"
+    "watch": "sass winter/scss/style.scss:winter/css/style.css winter/scss/dark-style.scss:winter/css/dark-style.css --no-source-map --watch",
+    "watch-min": "sass winter/scss/style.scss:winter/css/style.min.css winter/scss/dark-style.scss:winter/css/dark-style.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run dark-style",
+    "style-min": "npm run style-light-min && npm run dark-style-min",
+    "dark-style": "sass winter/scss/dark-style.scss winter/css/dark-style.css --no-source-map",
+    "dark-style-min": "sass winter/scss/dark-style.scss winter/css/dark-style.min.css --no-source-map --style compressed",
+    "style-light": "sass winter/scss/style.scss winter/css/style.css --no-source-map",
+    "style-light-min": "sass winter/scss/style.scss winter/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",

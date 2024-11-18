@@ -18,10 +18,26 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'test';
 
 
-
-.palette-img {
-  border: 1px solid $font-color;
+body {
+    background-image: linear-gradient(to bottom right,
+            $accent-color,
+            $dark-background-color,
+            $background-color);
 }
 
+* {
+    color: $font-alternative-color;
+    font-family: $paragraph-font;
+}
 
+code,
+tr,
+th,
+strong {
+    color: $font-color;
+}
 
+.image-of-me {
+    border-radius: 20%;
+    box-shadow: 5px 5px 6px lighten($dark-background-color, 10%);
+}

@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
     <title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
 
     {% if meta.description %}
@@ -16,5 +17,9 @@
 
     <link rel="icon" href="{{ theme_url }}/../shared/img/favicon.ico">
     <link rel="stylesheet" href="{{ theme_url }}/css/mobile-menu.css" type="text/css" />
+   {% if config.session.theme == "dark" %}
+    <link rel="stylesheet" href="{{ theme_url }}/css/dark-style.css" type="text/css" />
+    {% else %}
     <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+    {% endif %}
 </head>

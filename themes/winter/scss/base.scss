@@ -11,6 +11,7 @@ html {
   text-size-adjust: 100%;
   font-size: 16px;
   scroll-behavior: smooth;
+  letter-spacing: .3px;
 }
 
 body {
@@ -58,5 +59,41 @@ table {
 
   th {
     background-color: $font-alternative-color;
+  }
+}
+
+.header,
+.footer {
+  flex: 0 0 auto;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.main {
+  flex: 1 0 auto;
+  margin: 0 auto;
+  padding: 2em;
+
+  h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .main {
+    width: 90%;
+    padding: 0.3em;
+
+    h1 {
+      font-size: 1.6em;
+    }
   }
 }

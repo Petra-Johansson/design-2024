@@ -6750,6 +6750,23 @@ pre code {
     display: none;
   }
 }
-.palette-img {
-  border: 1px solid #333;
+body {
+  background-image: linear-gradient(to bottom right, #f7c6d0, #1f6062, #4d6e99);
+}
+
+* {
+  color: #fff;
+  font-family: "Figtree", sans-serif;
+}
+
+code,
+tr,
+th,
+strong {
+  color: #333;
+}
+
+.image-of-me {
+  border-radius: 20%;
+  box-shadow: 5px 5px 6px rgb(43.2558139535, 133.9534883721, 136.7441860465);
 }
