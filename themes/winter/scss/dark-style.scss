@@ -15,29 +15,42 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'code';
 @import 'presentation';
 @import 'technology';
-@import 'test';
+@import 'palette';
 
 
 body {
     background-image: linear-gradient(to bottom right,
             $accent-color,
-            $dark-background-color,
-            $background-color);
+            $dark-bg-color,
+            $bg-color);
 }
 
 * {
-    color: $font-alternative-color;
+    color: $font-alt-color;
     font-family: $paragraph-font;
 }
 
 code,
 tr,
-th,
-strong {
+th {
     color: $font-color;
 }
 
+strong {
+    color: $font-alt-color;
+    font-style: italic;
+}
+
+.nav ul li {
+    &.active a {
+        color: $font-color;
+    }
+
+    a {
+        color: $font-alt-color;
+    }
+}
+
 .image-of-me {
-    border-radius: 20%;
-    box-shadow: 5px 5px 6px lighten($dark-background-color, 10%);
+    box-shadow: 5px 5px 6px lighten($dark-bg-color, 10%);
 }

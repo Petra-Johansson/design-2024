@@ -19,8 +19,8 @@ body {
   flex-direction: column;
   background-image: linear-gradient(to bottom right,
   $accent-color,
-  $background-alternative-color,
-  $background-color);
+  $bg-alt-color,
+  $bg-color);
 }
 
 * {
@@ -58,7 +58,7 @@ table {
   margin: 2em 0;
 
   th {
-    background-color: $font-alternative-color;
+    background-color: $font-alt-color;
   }
 }
 
