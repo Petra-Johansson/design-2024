@@ -1,5 +1,6 @@
 ---
-Title: Technology
-Description: Different Technologies
-Template: technologies
+Title: Analysis
+Description: Analysis of webistes
+Template: analysis
 ---
+

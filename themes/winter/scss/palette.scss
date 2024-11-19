@@ -1,87 +1,85 @@
 .palette-div {
-    margin-top: 3em;
+  margin-top: 3em;
 }
 
 .palette-table {
-    border-spacing: 15px 8px;
-    border-collapse: separate;
-    margin-bottom: 2em;
+  border-spacing: 15px 8px;
+  border-collapse: separate;
+  margin-bottom: 2em;
 
-    td {
-        height: 80px;
-        width: 80px;
-        margin-right: 1em;
-        font-size: .8em;
-        position: relative;
+  td {
+    height: 80px;
+    width: 80px;
+    margin-right: 1em;
+    font-size: 0.8em;
+    position: relative;
 
-        .usage {
-            opacity: 0;
-            transition: .2s;
-            position: absolute;
-        }
-
-        &:hover .usage {
-            opacity: 1;
-        }
-
+    .usage {
+      opacity: 0;
+      transition: 0.2s;
+      position: absolute;
     }
+
+    &:hover .usage {
+      opacity: 1;
+    }
+
+  }
 }
 
 .winter-palette {
-    td {
-
-        &:nth-child(1) {
-            background-color: $font-color;
-        }
-
-        &:nth-child(2) {
-            background-color: $font-alt-color;
-
-            span {
-                color: $font-color;
-            }
-        }
-
-        &:nth-child(3) {
-            background-color: $bg-color;
-        }
-
-        &:nth-child(4) {
-            background-color: $bg-alt-color;
-        }
-
-        &:nth-child(5) {
-            background-color: $accent-color;
-        }
+  td {
+    &:nth-child(1) {
+      background-color: $font-color;
     }
+
+    &:nth-child(2) {
+      background-color: $font-alt-color;
+
+      span {
+        color: $font-color;
+      }
+    }
+
+    &:nth-child(3) {
+      background-color: $bg-color;
+    }
+
+    &:nth-child(4) {
+      background-color: $bg-alt-color;
+    }
+
+    &:nth-child(5) {
+      background-color: $accent-color;
+    }
+  }
 }
 
 .dark-palette {
-    td {
+  td {
+    &:nth-child(1) {
+      background-color: $font-alt-color;
 
-        &:nth-child(1) {
-            background-color: $font-alt-color;
-
-            span {
-                color: $font-color;
-            }
-        }
-
-        &:nth-child(2) {
-            background-color: $font-color;
-        }
-
-        &:nth-child(3) {
-            background-color: $bg-color;
-        }
-
-        &:nth-child(4) {
-            background-color: $dark-bg-color;
-        }
-
-        &:nth-child(5) {
-            background-color: $accent-color;
-        }
+      span {
+        color: $font-color;
+      }
     }
+
+    &:nth-child(2) {
+      background-color: $font-color;
+    }
+
+    &:nth-child(3) {
+      background-color: $bg-color;
+    }
+
+    &:nth-child(4) {
+      background-color: $dark-bg-color;
+    }
+
+    &:nth-child(5) {
+      background-color: $accent-color;
+    }
+  }
 
 }

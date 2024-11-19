@@ -6388,7 +6388,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(to bottom right, #C4ABE0, #81CBDE, #8190DE);
+  background-image: linear-gradient(to bottom right, #C4ABE0, #81cbde, #8190DE);
 }
 
 * {
@@ -6788,7 +6788,7 @@ pre code {
   background-color: #8190DE;
 }
 .winter-palette td:nth-child(4) {
-  background-color: #81CBDE;
+  background-color: #81cbde;
 }
 .winter-palette td:nth-child(5) {
   background-color: #C4ABE0;

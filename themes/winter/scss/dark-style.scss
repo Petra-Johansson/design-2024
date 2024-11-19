@@ -19,38 +19,38 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 
 body {
-    background-image: linear-gradient(to bottom right,
-            $accent-color,
-            $dark-bg-color,
-            $bg-color);
+  background-image: linear-gradient(to bottom right,
+  $accent-color,
+  $dark-bg-color,
+  $bg-color);
 }
 
 * {
-    color: $font-alt-color;
-    font-family: $paragraph-font;
+  color: $font-alt-color;
+  font-family: $paragraph-font;
 }
 
 code,
 tr,
 th {
-    color: $font-color;
+  color: $font-color;
 }
 
 strong {
-    color: $font-alt-color;
-    font-style: italic;
+  color: $font-alt-color;
+  font-style: italic;
 }
 
 .nav ul li {
-    &.active a {
-        color: $font-color;
-    }
+  &.active a {
+    color: $font-color;
+  }
 
-    a {
-        color: $font-alt-color;
-    }
+  a {
+    color: $font-alt-color;
+  }
 }
 
 .image-of-me {
-    box-shadow: 5px 5px 6px lighten($dark-bg-color, 10%);
+  box-shadow: 5px 5px 6px lighten($dark-bg-color, 10%);
 }
