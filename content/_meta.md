@@ -8,6 +8,7 @@ Social:
     - title: Send me an email.
       url: mailto:johansson.m.petra@gmail.com
       icon: fa fa-at
+Theme:
     - title: Dark Mode
       url: ?action=theme
       icon: fas fa-moon
