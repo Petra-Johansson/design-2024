@@ -1,6 +1,6 @@
 .footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   border-top: 1px solid #222;
   padding: 1em;
 
@@ -8,7 +8,8 @@
     color: $font-color;
   }
 
-  .social {
+  .social,
+  .theme {
     font-size: 2em;
 
     .fab,
@@ -16,7 +17,6 @@
     .fa {
       color: $font-alt-color;
       font-weight: 700;
-
     }
 
     a {

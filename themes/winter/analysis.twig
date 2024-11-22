@@ -12,7 +12,7 @@
                     <h2><a href="{{ base_url }}/analysis">Reports: </a> </h2>
                 <div>
                 {% for page in pages("analysis") %}
-                <h3><a href="{{ page.url }}"> {{ page.title }} </a></h3>
+                <h3><a href="{{ page.url }}">{{ page.meta.Icon }} {{ page.title }} </a></h3>
                 {% endfor %}
                 </div>
                 </aside>
@@ -21,7 +21,8 @@
                  <article class="analysis-content">
                  {{content}}
                 </article>
-             </div>
+            </div>
+
        {% else %}
             <div class="analysis-landing">
                 <article class="analysis-content">

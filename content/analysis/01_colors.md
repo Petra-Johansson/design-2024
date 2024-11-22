@@ -2,11 +2,15 @@
 Title: Colors
 Description: About Colors
 Template: analysis
+Icon: fas fa-palette
 ---
 
 # ![Palette](%base_url%/assets/img/palette-solid.svg){.icon}  Colors 
 
 Skriv en eller två rader om vad uppgiften handlar om.
+
+
+
 
 ## Urval
 
