@@ -1,10 +1,10 @@
 ---
-Title: Analysis
+Title: Rapporter
 Description: Analysis of websites
 Template: analysis
 ---
 
-# Choose a report to read
+# Välj en rapport att läsa
 
 ![Palette](%base_url%/assets/img/palette-solid.svg){.icon}  [Colors](%base_url%/analysis/01_colors 'Link to Colors'){.report-link}
 

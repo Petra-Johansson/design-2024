@@ -9,10 +9,14 @@
             <div class="analysis-spec">
         
                 <aside class="analysis-sidebar">
-                    <h2><a href="{{ base_url }}/analysis">Reports: </a> </h2>
+                    <h2><a href="{{ base_url }}/analysis">Rapporter: </a> </h2>
                 <div>
                 {% for page in pages("analysis") %}
-                <h3><a href="{{ page.url }}">{{ page.meta.Icon }} {{ page.title }} </a></h3>
+                <h3><a href="{{ page.url }}">
+                    <i class=" {{ page.meta.Icon }}"></i> 
+                {{ page.title }} 
+                </a></h3>
+
                 {% endfor %}
                 </div>
                 </aside>
