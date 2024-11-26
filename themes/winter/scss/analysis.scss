@@ -43,13 +43,13 @@
       align-items: center;
       justify-content: center;
       text-decoration: none;
-    
+
       .icon {
         height: 1em;
         width: 1em;
         margin-right: 0.5rem;
       }
-    
+
       i {
         margin-right: 2rem;
       }
@@ -59,11 +59,15 @@
       font-weight: 500;
     }
 
+    .company-snaps {
+      display: flex;
+      flex-direction: row;
+    }
+
     .snapshot {
-      height: 150px;
-      width: auto;
       cursor: pointer;
       transition: transform 0.3s ease;
+      margin-top: 2em;
       margin-right: 3em;
       border-radius: 5px;
 
@@ -94,13 +98,13 @@
       td {
         padding: 0.2em;
         border-bottom: 1px solid $font-color;
-      }    
-        
+      }
+
     }
   }
 
 
-  
+
 
   h3 {
     text-decoration: underline;

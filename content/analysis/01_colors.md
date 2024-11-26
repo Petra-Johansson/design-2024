@@ -44,9 +44,10 @@ Jag skulle tro att Ikea vill förmedla dels något lättillgängligt och stabilt
 
 Ikea använder sig av ett *triadiskt* färgschema där de blåa, gula och orange/röda nyanserna ligger fördelade över färghjulet som bilden nedan visar. Som komplement har de även neutrala nyanser i nästintill svart respektive vitt.
 
-
-![Ikea snap](%base_url%/image/ikea.png){.snapshot} 
-![Ikea color wheel](%base_url%/image/ikea-wheel.png){.snapshot} 
+<div class="company-snaps">
+<img src="%base_url%/image/ikea.png" alt="Ikea snap" class="snapshot" width="350" height="150">
+<img src="%base_url%/image/ikea-wheel.png" alt="Ikea color wheel" class="snapshot" width="150" height="150">
+</div>
 
 <div class="palette-div">
 <table class="palette-table ikea-palette">
@@ -92,8 +93,12 @@ Jag skulle inte bli förvånad om CSN har en ambition om att framstå som pålit
 
 CSN använder ett *analogt* färgschema där de lila, korallrosa samt gula färgerna ligger jämnt fördelade över färghjulet, vilket kan ses på bilden nedan.
 
-![Csn snap](%base_url%/image/csn.png){.snapshot} 
-![Csn color wheel](%base_url%/image/csn-wheel.png){.snapshot} 
+<div class="company-snaps">
+
+<img src="%base_url%/image/csn.png" alt="Csn snap" class="snapshot" width="350" height="150">
+<img src="%base_url%/image/csn-wheel.png" alt="Csn color wheel" class="snapshot" width="150" height="150">
+</div>
+
 
 <div class="palette-div">
 <table class="palette-table csn-palette">
@@ -140,8 +145,10 @@ både när det gäller typsnitt men även färger.
 Svt har ett *monokromatiskt* färgschema vilket utgår från en röd färg och även inkluderar framförallt två ljusare bakgrundsfärger samt en mörkare textfärger.  
 
 
-![Svt snap](%base_url%/image/svt.png){.snapshot} 
-![Svt color wheel](%base_url%/image/svt-wheel.png){.snapshot} 
+<div class="company-snaps">
+<img src="%base_url%/image/svt.png" alt="Svt snap" class="snapshot" width="250" height="150">
+<img src="%base_url%/image/svt-wheel.png" alt="Svt color wheel" class="snapshot" width="150" height="150">
+</div>
 
 <div class="palette-div">
 <table class="palette-table svt-palette">

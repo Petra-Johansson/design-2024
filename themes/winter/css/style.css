@@ -6826,11 +6826,14 @@ pre code {
 .analysis-spec .analysis-content .link {
   font-weight: 500;
 }
+.analysis-spec .analysis-content .company-snaps {
+  display: flex;
+  flex-direction: row;
+}
 .analysis-spec .analysis-content .snapshot {
-  height: 150px;
-  width: auto;
   cursor: pointer;
   transition: transform 0.3s ease;
+  margin-top: 2em;
   margin-right: 3em;
   border-radius: 5px;
 }
