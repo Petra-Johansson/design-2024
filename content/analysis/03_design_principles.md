@@ -2,7 +2,8 @@
 Title: Designprinciper
 Description: About Design Principles
 Template: analysis
-Icon: fas fa-pen-ruler
+Icon: fas fa-book
 ---
 
-# ![Pen and Ruler](%base_url%/assets/img/pen-ruler-solid.svg){.icon}  Designprinciper
+
+<h1><i class="fas fa-book"></i> Designprinciper</h1>

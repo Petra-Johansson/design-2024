@@ -17,7 +17,7 @@ On this page I will write about the development of this website. First of, I wil
 
 <div class="palette-div">
 
-<h4>This is the color palette I am using for the lighter theme I am calling "Winter":</h4>
+<h3>This is the color palette I am using for the lighter theme I am calling "Winter":</h3>
 
 <table class="palette-table winter-palette">
 <tr>
@@ -36,7 +36,7 @@ On this page I will write about the development of this website. First of, I wil
 </tr>
 </table>
 
-<h4>This is the color palette I am using for the dark theme:</h4>
+<h3>This is the color palette I am using for the dark theme:</h3>
 
 <table class="palette-table dark-palette">
 <tr>

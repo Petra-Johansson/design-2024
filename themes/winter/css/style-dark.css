@@ -6840,51 +6840,51 @@ pre code {
 
 /* palettes related to reports */
 .ikea-palette td:nth-child(1) {
-  background-color: #0367A6;
+  background-color: #0367a6;
 }
 .ikea-palette td:nth-child(2) {
-  background-color: #F2C53D;
+  background-color: #f2c53d;
 }
 .ikea-palette td:nth-child(3) {
-  background-color: #D9420B;
+  background-color: #d9420b;
 }
 .ikea-palette td:nth-child(4) {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 .ikea-palette td:nth-child(5) {
-  background-color: #0D0D0D;
+  background-color: #0d0d0d;
 }
 
 .csn-palette td:nth-child(1) {
-  background-color: #F2808A;
+  background-color: #f2808a;
 }
 .csn-palette td:nth-child(2) {
-  background-color: #361D59;
+  background-color: #361d59;
 }
 .csn-palette td:nth-child(3) {
   background-color: #482973;
 }
 .csn-palette td:nth-child(4) {
-  background-color: #F2C063;
+  background-color: #f2c063;
 }
 .csn-palette td:nth-child(5) {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 .svt-palette td:nth-child(1) {
-  background-color: #D9204F;
+  background-color: #d9204f;
 }
 .svt-palette td:nth-child(2) {
-  background-color: #FFFFFF;
+  background-color: #fff;
 }
 .svt-palette td:nth-child(3) {
-  background-color: #E02E3D;
+  background-color: #e02e3d;
 }
 .svt-palette td:nth-child(4) {
-  background-color: #1B1B1B;
+  background-color: #1b1b1b;
 }
 .svt-palette td:nth-child(5) {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 .analysis-landing {
@@ -6921,6 +6921,20 @@ pre code {
   padding: 0 1em;
   background-color: rgba(196, 171, 224, 0.2);
 }
+.analysis-spec .analysis-content h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.analysis-spec .analysis-content h1 .icon {
+  height: 1em;
+  width: 1em;
+  margin-right: 0.5rem;
+}
+.analysis-spec .analysis-content h1 i {
+  margin-right: 2rem;
+}
 .analysis-spec .analysis-content .link {
   font-weight: 500;
 }
@@ -6953,16 +6967,6 @@ pre code {
 .analysis-spec .analysis-content table td {
   padding: 0.2em;
   border-bottom: 1px solid #333;
-}
-.analysis-spec h1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.analysis-spec h1 .icon {
-  height: 1em;
-  width: 1em;
-  margin-right: 0.5rem;
 }
 .analysis-spec h3 {
   text-decoration: underline;

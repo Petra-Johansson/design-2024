@@ -5,7 +5,9 @@ Template: analysis
 Icon: fas fa-palette
 ---
 
-# ![Palette](%base_url%/assets/img/palette-solid.svg){.icon}  Färger 
+
+<h1><i class="fas fa-palette"></i> Färger</h1>
+
 
 Syftet med denna uppgift är att analysera hur användandet av främst färger, men även typografi, kan påverka intrycket en webbsida ger. Speglar intrycket som ges av detta vad jag tror att respektive sidas syfte och mål är? 
 

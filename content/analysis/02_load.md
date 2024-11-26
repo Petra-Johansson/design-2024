@@ -5,4 +5,4 @@ Template: analysis
 Icon: fas fa-hourglass-half
 ---
 
-# ![Hourglass](%base_url%/assets/img/hourglass-half-regular.svg){.icon} Laddningstid
+<h1><i class="fas fa-hourglass-half"></i> Laddningstid</h1>
