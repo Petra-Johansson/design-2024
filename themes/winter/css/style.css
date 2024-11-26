@@ -6461,6 +6461,9 @@ table th {
   .main h1 {
     font-size: 1.6em;
   }
+  .main h3 {
+    font-size: 1em;
+  }
 }
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
@@ -6550,6 +6553,9 @@ table th {
   .logo {
     max-width: 30%;
   }
+  .logo img {
+    height: auto;
+  }
 }
 .title * {
   color: #333;
@@ -6607,7 +6613,7 @@ table th {
 }
 .footer .social,
 .footer .theme {
-  font-size: 2em;
+  font-size: 1.3em;
 }
 .footer .social .fab,
 .footer .social .fas,
@@ -6848,10 +6854,6 @@ pre code {
   height: 5px;
   width: 90%;
 }
-.analysis-spec .analysis-content table {
-  width: 90%;
-  border-spacing: 0.5em;
-}
 .analysis-spec .analysis-content table th {
   text-align: left;
 }
@@ -6880,7 +6882,7 @@ pre code {
   padding: 1em;
 }
 
-@media screen and (max-width: 1050px) {
+@media (max-width: 1050px) {
   .analysis-landing {
     width: 75vw;
   }
@@ -6910,18 +6912,36 @@ pre code {
     transform: scale(1.5);
   }
 }
+@media (max-width: 768px) {
+  .analysis-spec {
+    grid-template-columns: 1fr;
+  }
+  .analysis-spec .analysis-sidebar > h2 {
+    display: none;
+  }
+  .analysis-spec .sidebar-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .analysis-spec .analysis-content .company-snaps {
+    flex-direction: column;
+  }
+}
 .palette-div {
   margin-top: 3em;
 }
 
 .palette-table {
-  border-spacing: 15px 8px;
+  border-spacing: 1em 0.6em;
   border-collapse: separate;
   margin-bottom: 2em;
+  width: 100%;
+  table-layout: fixed;
 }
 .palette-table td {
-  height: 80px;
-  width: 80px;
+  width: 20%;
+  height: 50px;
   margin-right: 1em;
   font-size: 0.8em;
   position: relative;
@@ -6935,6 +6955,16 @@ pre code {
   opacity: 1;
 }
 
+@media (max-width: 768px) {
+  .palette-table {
+    border-spacing: 0.3em 0.2em;
+    font-size: 0.5em;
+  }
+  .palette-table td {
+    width: 20px;
+    height: 50px;
+  }
+}
 .winter-palette td:nth-child(1) {
   background-color: #333;
 }
