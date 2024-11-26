@@ -6887,6 +6887,7 @@ pre code {
   .analysis-landing .analysis-content p {
     justify-self: left;
     margin-bottom: 1em;
+    margin-left: 3em;
   }
   .analysis-spec {
     width: 100%;
