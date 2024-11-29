@@ -6920,6 +6920,7 @@ pre code {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2em;
+  margin-top: 2em;
   background-color: rgba(196, 171, 224, 0.2);
 }
 .gallery .gallery-grid img {
