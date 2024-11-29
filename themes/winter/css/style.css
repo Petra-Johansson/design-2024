@@ -6942,12 +6942,14 @@ pre code {
 .gallery .gallery-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1em;
+  gap: 2em;
   background-color: rgba(196, 171, 224, 0.2);
 }
 .gallery .gallery-grid img {
   object-fit: cover;
   height: 100%;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  box-shadow: 5px 5px 6px #333;
 }
 .gallery .gallery-grid img:hover {
   scale: 1.1;
