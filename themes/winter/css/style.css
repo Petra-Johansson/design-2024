@@ -6955,6 +6955,24 @@ pre code {
 .gallery .gallery-grid img:hover {
   scale: 1.1;
 }
+.gallery .embed-container {
+  position: relative;
+  width: 70%;
+  margin: 3em auto 2em auto;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+.gallery .embed-container iframe,
+.gallery .embed-container object,
+.gallery .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 
 @media (max-width: 767px) {
   .gallery-grid {
