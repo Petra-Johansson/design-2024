@@ -1,29 +1,32 @@
-@import '../../node_modules/normalize.css/normalize';
-@import '../../shared/fontawesome/scss/fontawesome';
-@import 'base';
+@use 'variables' as vars with (
+  $font-color: #fff,
+  $bg-alt-color:  #1f6062
+
+);
+
+@use '../../node_modules/normalize.css/normalize';
+@use '../../shared/fontawesome/scss/fontawesome';
+@use 'base';
 
 $fa-font-path: '../../shared/fontawesome/webfonts';
-@import '../../shared/fontawesome/scss/brands';
-@import '../../shared/fontawesome/scss/solid';
-@import '../../shared/fontawesome/scss/regular';
+@use '../../shared/fontawesome/scss/brands';
+@use '../../shared/fontawesome/scss/solid';
+@use '../../shared/fontawesome/scss/regular';
 
-@import 'variables';
-
-@import 'header';
-@import 'footer';
-@import 'blockquotes';
-@import 'code';
-@import 'presentation';
-@import 'technology';
-@import 'palette';
-@import 'gallery';
-@import 'analysis';
-
-
+@use 'header';
+@use 'footer';
+@use 'blockquotes';
+@use 'code';
+@use 'presentation';
+@use 'technology';
+@use 'analysis';
+@use 'gallery';
+@use 'palette';
+/*
 body {
   background-image: linear-gradient(to bottom right,
   $accent-color,
-  $dark-bg-color,
+  $bg-alt-color,
   $bg-color);
 }
 
@@ -51,11 +54,11 @@ strong {
 .image-of-me {
   box-shadow: 5px 5px 6px rgba($dark-bg-color, 0.1);
 }
-
 .analysis-content {
   h2,
   p {
     color: $font-alt-color;
-
+    
   }
 }
+*/

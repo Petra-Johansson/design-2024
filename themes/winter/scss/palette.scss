@@ -1,3 +1,5 @@
+@use 'variables' as vars;
+
 .palette-div {
   margin-top: 3em;
 }
@@ -28,6 +30,10 @@
 
   }
 }
+
+.palette-img {
+  border: 1px solid vars.$font-color;
+}
 @media (max-width: 768px) {
   .palette-table {
     border-spacing: .3em .2em;
@@ -44,27 +50,27 @@
 .winter-palette {
   td {
     &:nth-child(1) {
-      background-color: $font-color;
+      background-color: vars.$font-color;
     }
 
     &:nth-child(2) {
-      background-color: $font-alt-color;
+      background-color: vars.$font-alt-color;
 
       span {
-        color: $font-color;
+        color: vars.$font-color;
       }
     }
 
     &:nth-child(3) {
-      background-color: $bg-color;
+      background-color: vars.$bg-color;
     }
 
     &:nth-child(4) {
-      background-color: $bg-alt-color;
+      background-color: vars.$bg-alt-color;
     }
 
     &:nth-child(5) {
-      background-color: $accent-color;
+      background-color: vars.$accent-color;
     }
   }
 }
@@ -72,27 +78,27 @@
 .dark-palette {
   td {
     &:nth-child(1) {
-      background-color: $font-alt-color;
+      background-color: vars.$font-alt-color;
 
       span {
-        color: $font-color;
+        color: vars.$font-color;
       }
     }
 
     &:nth-child(2) {
-      background-color: $font-color;
+      background-color: vars.$font-color;
     }
 
     &:nth-child(3) {
-      background-color: $bg-color;
+      background-color: vars.$bg-color;
     }
 
     &:nth-child(4) {
-      background-color: $dark-bg-color;
+      background-color: #1f6062;
     }
 
     &:nth-child(5) {
-      background-color: $accent-color;
+      background-color: vars.$accent-color;
     }
   }
 

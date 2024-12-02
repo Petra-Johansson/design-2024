@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -5,8 +6,6 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -6388,11 +6387,11 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(to bottom right, #c4abe0, #81cbde, #8190de);
+  background-image: linear-gradient(to bottom right, #c4abe0, #1f6062, #8190de);
 }
 
 * {
-  color: #333;
+  color: #fff;
   font-family: "Figtree", sans-serif;
   box-sizing: border-box;
 }
@@ -6474,8 +6473,8 @@ table th {
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("../../shared/fontawesome/webfonts/fa-brands-400.eot");
-  src: url("../../shared/fontawesome/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../../shared/fontawesome/webfonts/fa-brands-400.woff2") format("woff2"), url("../../shared/fontawesome/webfonts/fa-brands-400.woff") format("woff"), url("../../shared/fontawesome/webfonts/fa-brands-400.ttf") format("truetype"), url("../../shared/fontawesome/webfonts/fa-brands-400.svg#fontawesome") format("svg");
+  src: url("../webfonts/fa-brands-400.eot");
+  src: url("../webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg");
 }
 .fab {
   font-family: "Font Awesome 5 Brands";
@@ -6491,8 +6490,8 @@ table th {
   font-style: normal;
   font-weight: 900;
   font-display: block;
-  src: url("../../shared/fontawesome/webfonts/fa-solid-900.eot");
-  src: url("../../shared/fontawesome/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../../shared/fontawesome/webfonts/fa-solid-900.woff2") format("woff2"), url("../../shared/fontawesome/webfonts/fa-solid-900.woff") format("woff"), url("../../shared/fontawesome/webfonts/fa-solid-900.ttf") format("truetype"), url("../../shared/fontawesome/webfonts/fa-solid-900.svg#fontawesome") format("svg");
+  src: url("../webfonts/fa-solid-900.eot");
+  src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg");
 }
 .fa,
 .fas {
@@ -6509,8 +6508,8 @@ table th {
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("../../shared/fontawesome/webfonts/fa-regular-400.eot");
-  src: url("../../shared/fontawesome/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../../shared/fontawesome/webfonts/fa-regular-400.woff2") format("woff2"), url("../../shared/fontawesome/webfonts/fa-regular-400.woff") format("woff"), url("../../shared/fontawesome/webfonts/fa-regular-400.ttf") format("truetype"), url("../../shared/fontawesome/webfonts/fa-regular-400.svg#fontawesome") format("svg");
+  src: url("../webfonts/fa-regular-400.eot");
+  src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg");
 }
 .far {
   font-family: "Font Awesome 5 Free";
@@ -6558,7 +6557,7 @@ table th {
   }
 }
 .title * {
-  color: #333;
+  color: #fff;
 }
 
 .title p {
@@ -6609,7 +6608,7 @@ table th {
   padding: 1em;
 }
 .footer a {
-  color: #333;
+  color: #fff;
 }
 .footer .social,
 .footer .theme {
@@ -6781,181 +6780,6 @@ pre code {
     display: none;
   }
 }
-.palette-div {
-  margin-top: 3em;
-}
-
-.palette-table {
-  border-spacing: 1em 0.6em;
-  border-collapse: separate;
-  margin-bottom: 2em;
-  width: 100%;
-  table-layout: fixed;
-}
-.palette-table td {
-  width: 20%;
-  height: 50px;
-  margin-right: 1em;
-  font-size: 0.8em;
-  position: relative;
-}
-.palette-table td .usage {
-  opacity: 0;
-  transition: 0.2s;
-  position: absolute;
-}
-.palette-table td:hover .usage {
-  opacity: 1;
-}
-
-@media (max-width: 768px) {
-  .palette-table {
-    border-spacing: 0.3em 0.2em;
-    font-size: 0.5em;
-  }
-  .palette-table td {
-    width: 20px;
-    height: 50px;
-  }
-}
-.winter-palette td:nth-child(1) {
-  background-color: #333;
-}
-.winter-palette td:nth-child(2) {
-  background-color: #fff;
-}
-.winter-palette td:nth-child(2) span {
-  color: #333;
-}
-.winter-palette td:nth-child(3) {
-  background-color: #8190de;
-}
-.winter-palette td:nth-child(4) {
-  background-color: #81cbde;
-}
-.winter-palette td:nth-child(5) {
-  background-color: #c4abe0;
-}
-
-.dark-palette td:nth-child(1) {
-  background-color: #fff;
-}
-.dark-palette td:nth-child(1) span {
-  color: #333;
-}
-.dark-palette td:nth-child(2) {
-  background-color: #333;
-}
-.dark-palette td:nth-child(3) {
-  background-color: #8190de;
-}
-.dark-palette td:nth-child(4) {
-  background-color: #1f6062;
-}
-.dark-palette td:nth-child(5) {
-  background-color: #c4abe0;
-}
-
-/* palettes related to reports */
-.ikea-palette td:nth-child(1) {
-  background-color: #0367a6;
-}
-.ikea-palette td:nth-child(2) {
-  background-color: #f2c53d;
-}
-.ikea-palette td:nth-child(3) {
-  background-color: #d9420b;
-}
-.ikea-palette td:nth-child(4) {
-  background-color: #f2f2f2;
-}
-.ikea-palette td:nth-child(5) {
-  background-color: #0d0d0d;
-}
-
-.csn-palette td:nth-child(1) {
-  background-color: #f2808a;
-}
-.csn-palette td:nth-child(2) {
-  background-color: #361d59;
-}
-.csn-palette td:nth-child(3) {
-  background-color: #482973;
-}
-.csn-palette td:nth-child(4) {
-  background-color: #f2c063;
-}
-.csn-palette td:nth-child(5) {
-  background-color: #f2f2f2;
-}
-
-.svt-palette td:nth-child(1) {
-  background-color: #d9204f;
-}
-.svt-palette td:nth-child(2) {
-  background-color: #fff;
-}
-.svt-palette td:nth-child(3) {
-  background-color: #e02e3d;
-}
-.svt-palette td:nth-child(4) {
-  background-color: #1b1b1b;
-}
-.svt-palette td:nth-child(5) {
-  background-color: #f2f2f2;
-}
-
-.gallery {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.gallery h1 {
-  text-decoration: none;
-}
-.gallery h1 i {
-  margin-right: 2rem;
-}
-.gallery .gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2em;
-  margin-top: 2em;
-  background-color: rgba(196, 171, 224, 0.2);
-  width: 75%;
-}
-.gallery .gallery-grid img {
-  object-fit: cover;
-  height: 100%;
-  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-  box-shadow: 5px 5px 6px #333;
-}
-.gallery .gallery-grid img:hover {
-  scale: 1.1;
-}
-.gallery .embed-container {
-  position: relative;
-  width: 70%;
-  margin: 3em auto;
-  aspect-ratio: 16/9;
-  overflow: hidden;
-}
-.gallery .embed-container iframe,
-.gallery .embed-container object,
-.gallery .embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-@media (max-width: 767px) {
-  .gallery-grid {
-    grid-template-columns: 1fr;
-    justify-items: center;
-  }
-}
 .analysis-landing {
   width: 80vw;
   margin: 0 auto;
@@ -7034,7 +6858,7 @@ pre code {
 }
 .analysis-spec .analysis-content table td {
   padding: 0.2em;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #fff;
 }
 .analysis-spec h3 {
   text-decoration: underline;
@@ -7103,35 +6927,222 @@ pre code {
     flex-direction: column;
   }
 }
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gallery h1 {
+  text-decoration: none;
+}
+.gallery h1 i {
+  margin-right: 2rem;
+}
+.gallery .gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em;
+  margin-top: 2em;
+  background-color: rgba(196, 171, 224, 0.2);
+  width: 75%;
+}
+.gallery .gallery-grid img {
+  object-fit: cover;
+  height: 100%;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  box-shadow: 5px 5px 6px #fff;
+}
+.gallery .gallery-grid img:hover {
+  scale: 1.1;
+}
+.gallery .embed-container {
+  position: relative;
+  width: 70%;
+  margin: 3em auto;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+}
+.gallery .embed-container iframe,
+.gallery .embed-container object,
+.gallery .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 767px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+.palette-div {
+  margin-top: 3em;
+}
+
+.palette-table {
+  border-spacing: 1em 0.6em;
+  border-collapse: separate;
+  margin-bottom: 2em;
+  width: 100%;
+  table-layout: fixed;
+}
+.palette-table td {
+  width: 20%;
+  height: 50px;
+  margin-right: 1em;
+  font-size: 0.8em;
+  position: relative;
+}
+.palette-table td .usage {
+  opacity: 0;
+  transition: 0.2s;
+  position: absolute;
+}
+.palette-table td:hover .usage {
+  opacity: 1;
+}
+
+.palette-img {
+  border: 1px solid #fff;
+}
+
+@media (max-width: 768px) {
+  .palette-table {
+    border-spacing: 0.3em 0.2em;
+    font-size: 0.5em;
+  }
+  .palette-table td {
+    width: 20px;
+    height: 50px;
+  }
+}
+.winter-palette td:nth-child(1) {
+  background-color: #fff;
+}
+.winter-palette td:nth-child(2) {
+  background-color: #fff;
+}
+.winter-palette td:nth-child(2) span {
+  color: #fff;
+}
+.winter-palette td:nth-child(3) {
+  background-color: #8190de;
+}
+.winter-palette td:nth-child(4) {
+  background-color: #1f6062;
+}
+.winter-palette td:nth-child(5) {
+  background-color: #c4abe0;
+}
+
+.dark-palette td:nth-child(1) {
+  background-color: #fff;
+}
+.dark-palette td:nth-child(1) span {
+  color: #fff;
+}
+.dark-palette td:nth-child(2) {
+  background-color: #fff;
+}
+.dark-palette td:nth-child(3) {
+  background-color: #8190de;
+}
+.dark-palette td:nth-child(4) {
+  background-color: #1f6062;
+}
+.dark-palette td:nth-child(5) {
+  background-color: #c4abe0;
+}
+
+/* palettes related to reports */
+.ikea-palette td:nth-child(1) {
+  background-color: #0367a6;
+}
+.ikea-palette td:nth-child(2) {
+  background-color: #f2c53d;
+}
+.ikea-palette td:nth-child(3) {
+  background-color: #d9420b;
+}
+.ikea-palette td:nth-child(4) {
+  background-color: #f2f2f2;
+}
+.ikea-palette td:nth-child(5) {
+  background-color: #0d0d0d;
+}
+
+.csn-palette td:nth-child(1) {
+  background-color: #f2808a;
+}
+.csn-palette td:nth-child(2) {
+  background-color: #361d59;
+}
+.csn-palette td:nth-child(3) {
+  background-color: #482973;
+}
+.csn-palette td:nth-child(4) {
+  background-color: #f2c063;
+}
+.csn-palette td:nth-child(5) {
+  background-color: #f2f2f2;
+}
+
+.svt-palette td:nth-child(1) {
+  background-color: #d9204f;
+}
+.svt-palette td:nth-child(2) {
+  background-color: #fff;
+}
+.svt-palette td:nth-child(3) {
+  background-color: #e02e3d;
+}
+.svt-palette td:nth-child(4) {
+  background-color: #1b1b1b;
+}
+.svt-palette td:nth-child(5) {
+  background-color: #f2f2f2;
+}
+
+/*
 body {
-  background-image: linear-gradient(to bottom right, #c4abe0, #1f6062, #8190de);
+  background-image: linear-gradient(to bottom right,
+  $accent-color,
+  $bg-alt-color,
+  $bg-color);
 }
 
 * {
-  color: #fff;
-  font-family: "Figtree", sans-serif;
+  color: $font-alt-color;
+  font-family: $paragraph-font;
 }
 
 code,
 tr,
 th {
-  color: #333;
+  color: $font-color;
 }
 
 strong {
-  color: #fff;
+  color: $font-alt-color;
   font-style: italic;
 }
 
 .nav ul li a {
-  color: #fff;
+  color: $font-alt-color;
 }
+
 
 .image-of-me {
-  box-shadow: 5px 5px 6px rgba(31, 96, 98, 0.1);
+  box-shadow: 5px 5px 6px rgba($dark-bg-color, 0.1);
 }
+.analysis-content {
+  h2,
+  p {
+    color: $font-alt-color;
 
-.analysis-content h2,
-.analysis-content p {
-  color: #fff;
+  }
 }
+*/

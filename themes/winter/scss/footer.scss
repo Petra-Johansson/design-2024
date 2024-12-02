@@ -1,3 +1,5 @@
+@use 'variables' as vars;
+
 .footer {
   display: flex;
   justify-content: space-around;
@@ -5,7 +7,7 @@
   padding: 1em;
 
   a {
-    color: $font-color;
+    color: vars.$font-color;
   }
 
   .social,
@@ -15,7 +17,7 @@
     .fab,
     .fas,
     .fa {
-      color: $font-alt-color;
+      color: vars.$font-alt-color;
       font-weight: 700;
     }
 

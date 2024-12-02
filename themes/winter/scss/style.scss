@@ -1,29 +1,20 @@
-@import '../../node_modules/normalize.css/normalize';
-@import '../../shared/fontawesome/scss/fontawesome';
-@import 'base';
+@use '../../node_modules/normalize.css/normalize';
+@use '../../shared/fontawesome/scss/fontawesome';
+@use 'variables';
 
 $fa-font-path: '../../shared/fontawesome/webfonts';
-@import '../../shared/fontawesome/scss/brands';
-@import '../../shared/fontawesome/scss/solid';
-@import '../../shared/fontawesome/scss/regular';
-
-@import 'variables';
-
-@import 'header';
-@import 'footer';
-@import 'blockquotes';
-@import 'code';
-@import 'presentation';
-@import 'technology';
-@import 'analysis';
-@import 'gallery';
-@import 'palette';
+@use '../../shared/fontawesome/scss/brands';
+@use '../../shared/fontawesome/scss/solid';
+@use '../../shared/fontawesome/scss/regular';
 
 
-
-.palette-img {
-  border: 1px solid $font-color;
-}
-
-
-
+@use 'base';
+@use 'header';
+@use 'footer';
+@use 'blockquotes';
+@use 'code';
+@use 'presentation';
+@use 'technology';
+@use 'analysis';
+@use 'gallery';
+@use 'palette';

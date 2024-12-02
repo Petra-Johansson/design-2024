@@ -1,4 +1,4 @@
-@import 'variables';
+@use 'variables' as vars;
 
 html,
 body {
@@ -15,17 +15,17 @@ html {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  background-image: linear-gradient(to bottom right,
-  $accent-color,
-  $bg-alt-color,
-  $bg-color);
-}
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom right,
+      vars.$accent-color,
+      vars.$bg-alt-color,
+      vars.$bg-color );
+  }
 
 * {
-  color: $font-color;
-  font-family: $paragraph-font;
+  color: vars.$font-color;
+  font-family: vars.$paragraph-font;
   box-sizing: border-box;
 }
 
@@ -33,7 +33,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: $heading-font;
+  font-family: vars.$heading-font;
   font-weight: 500;
   margin-bottom: 0.8em;
   margin-top: 1em;
@@ -59,7 +59,7 @@ table {
   margin: 2em 0;
 
   th {
-    background-color: $font-alt-color;
+    background-color: vars.$font-alt-color;
   }
 }
 
@@ -96,6 +96,7 @@ table {
     h1 {
       font-size: 1.6em;
     }
+
     h3 {
       font-size: 1em;
     }

@@ -1,3 +1,5 @@
+@use 'variables' as vars;
+
 .landingpage {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -10,14 +12,14 @@
   }
 
   .box {
-    border: 2px solid rgba($accent-color, 0.8);
+    border: 2px solid rgba(vars.$accent-color, 0.8);
     border-radius: 10px 30px;
     padding: 1.4em;
     grid-column: 1 auto;
     transition: transform 0.3s ease-in;
 
     &:hover {
-      background-color: rgba($accent-color, 0.4);
+      background-color: rgba(vars.$accent-color, 0.4);
     }
 
     h2 > a {
