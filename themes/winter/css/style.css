@@ -6577,6 +6577,12 @@ strong {
 .nav ul li {
   padding: 1em;
 }
+.nav ul li:hover {
+  background-color: rgba(196, 171, 224, 0.4);
+  font-weight: 600;
+  border-radius: 10px 30px;
+  box-shadow: 5px 5px 6px #c4abe0;
+}
 .nav .active {
   background-color: rgba(196, 171, 224, 0.7);
   font-weight: 600;
