@@ -1,6 +1,7 @@
 ---
 Title: About
 Description: About page
+Template: about
 ---
 
 # <span class="greeting">&#9758;</span> About this page

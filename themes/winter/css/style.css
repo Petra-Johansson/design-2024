@@ -6506,6 +6506,10 @@ strong {
   text-align: center;
 }
 
+.about-main {
+  width: 75%;
+}
+
 @media (max-width: 767px) {
   .main {
     width: 90%;
@@ -6852,7 +6856,7 @@ pre code {
   text-underline-offset: 5px;
 }
 .analysis-spec .analysis-content hr {
-  height: 5px;
+  height: 3px;
   width: 90%;
 }
 .analysis-spec .analysis-content table th {
@@ -6982,6 +6986,7 @@ pre code {
 }
 .palette-div {
   margin-top: 3em;
+  width: 90%;
 }
 
 .palette-table {
