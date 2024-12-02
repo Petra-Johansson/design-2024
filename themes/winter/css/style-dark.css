@@ -6425,8 +6425,10 @@ img {
 table {
   margin: 2em 0;
 }
-table th {
-  background-color: #fff;
+
+strong {
+  color: #fff;
+  font-style: italic;
 }
 
 .header,
@@ -6620,7 +6622,7 @@ table th {
 .footer .theme .fab,
 .footer .theme .fas,
 .footer .theme .fa {
-  color: #fff;
+  color: #333;
   font-weight: 700;
 }
 .footer .social a,
@@ -6989,6 +6991,9 @@ pre code {
   width: 100%;
   table-layout: fixed;
 }
+.palette-table th {
+  background-color: #fff;
+}
 .palette-table td {
   width: 20%;
   height: 50px;
@@ -7023,7 +7028,7 @@ pre code {
   background-color: #fff;
 }
 .winter-palette td:nth-child(2) {
-  background-color: #fff;
+  background-color: #333;
 }
 .winter-palette td:nth-child(2) span {
   color: #fff;
@@ -7039,7 +7044,7 @@ pre code {
 }
 
 .dark-palette td:nth-child(1) {
-  background-color: #fff;
+  background-color: #333;
 }
 .dark-palette td:nth-child(1) span {
   color: #fff;
@@ -7106,43 +7111,16 @@ pre code {
   background-color: #f2f2f2;
 }
 
-/*
-body {
-  background-image: linear-gradient(to bottom right,
-  $accent-color,
-  $bg-alt-color,
-  $bg-color);
-}
-
-* {
-  color: $font-alt-color;
-  font-family: $paragraph-font;
+.nav ul li a {
+  color: #fff;
 }
 
 code,
-tr,
 th {
-  color: $font-color;
+  background-color: #fff;
+  color: #333;
 }
 
-strong {
-  color: $font-alt-color;
-  font-style: italic;
+td {
+  color: #fff;
 }
-
-.nav ul li a {
-  color: $font-alt-color;
-}
-
-
-.image-of-me {
-  box-shadow: 5px 5px 6px rgba($dark-bg-color, 0.1);
-}
-.analysis-content {
-  h2,
-  p {
-    color: $font-alt-color;
-
-  }
-}
-*/

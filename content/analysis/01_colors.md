@@ -62,7 +62,7 @@ Ikea använder sig av ett *triadiskt* färgschema där de blåa, gula och orange
 <td></td>
 <td></td>
 <td></td>
-<td> </td>
+<td></td>
 <td></td>
 </tr>
 </table>

@@ -1,8 +1,8 @@
 @use 'variables' as vars with (
   $font-color: #fff,
-  $bg-alt-color:  #1f6062
-
-);
+  $font-alt-color: #333,
+  $bg-alt-color: #1f6062
+  );
 
 @use '../../node_modules/normalize.css/normalize';
 @use '../../shared/fontawesome/scss/fontawesome';
@@ -22,43 +22,16 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @use 'analysis';
 @use 'gallery';
 @use 'palette';
-/*
-body {
-  background-image: linear-gradient(to bottom right,
-  $accent-color,
-  $bg-alt-color,
-  $bg-color);
-}
 
-* {
-  color: $font-alt-color;
-  font-family: $paragraph-font;
+.nav ul li a {
+  color: vars.$font-color;
 }
 
 code,
-tr,
 th {
-  color: $font-color;
+  background-color: vars.$font-color;
+  color: vars.$font-alt-color;
 }
-
-strong {
-  color: $font-alt-color;
-  font-style: italic;
+td {
+color: vars.$font-color
 }
-
-.nav ul li a {
-  color: $font-alt-color;
-}
-
-
-.image-of-me {
-  box-shadow: 5px 5px 6px rgba($dark-bg-color, 0.1);
-}
-.analysis-content {
-  h2,
-  p {
-    color: $font-alt-color;
-    
-  }
-}
-*/

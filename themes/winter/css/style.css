@@ -6477,8 +6477,10 @@ img {
 table {
   margin: 2em 0;
 }
-table th {
-  background-color: #fff;
+
+strong {
+  color: #333;
+  font-style: italic;
 }
 
 .header,
@@ -6988,6 +6990,9 @@ pre code {
   margin-bottom: 2em;
   width: 100%;
   table-layout: fixed;
+}
+.palette-table th {
+  background-color: #333;
 }
 .palette-table td {
   width: 20%;

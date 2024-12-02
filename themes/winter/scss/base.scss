@@ -58,11 +58,12 @@ img {
 table {
   margin: 2em 0;
 
-  th {
-    background-color: vars.$font-alt-color;
-  }
-}
 
+}
+strong {
+  color: vars.$font-color;
+  font-style: italic;
+}
 .header,
 .footer {
   flex: 0 0 auto;

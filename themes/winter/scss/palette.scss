@@ -11,25 +11,28 @@
   width: 100%;
   table-layout: fixed;
 
-  td {
-    width: 20%;
-    height: 50px;
-    margin-right: 1em;
-    font-size: 0.8em;
-    position: relative;
-
-    .usage {
-      opacity: 0;
-      transition: 0.2s;
-      position: absolute;
-    }
-
-    &:hover .usage {
-      opacity: 1;
-    }
-
+  th {
+    background-color: vars.$font-color;
   }
-}
+
+    td {
+      width: 20%;
+      height: 50px;
+      margin-right: 1em;
+      font-size: 0.8em;
+      position: relative;
+
+      .usage {
+        opacity: 0;
+        transition: 0.2s;
+        position: absolute;
+      }
+
+      &:hover .usage {
+       opacity: 1;
+      }
+    }
+  }
 
 .palette-img {
   border: 1px solid vars.$font-color;
