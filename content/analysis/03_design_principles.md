@@ -6,4 +6,4 @@ Icon: fas fa-book
 ---
 
 
-<h1><i class="fas fa-book"></i> Designprinciper</h1>
+# ![Book](%base_url%/assets/svg/book-solid.svg){.icon}  Designprinciper
