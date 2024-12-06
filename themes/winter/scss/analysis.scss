@@ -129,6 +129,11 @@
   padding: 1em;
 }
 
+.sheet {
+  width: 75%;
+  height: 350px;
+  margin-bottom: 2em;
+}
 
 
 @media (max-width: 1050px) {
@@ -168,6 +173,10 @@
         transform: scale(1.5);
       }
     }
+  }
+
+  .sheet {
+    width: 90%;
   }
 }
 
