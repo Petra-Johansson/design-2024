@@ -11,11 +11,16 @@
                 <aside class="analysis-sidebar">
                     <h2><a href="{{ base_url }}/analysis">Rapporter: </a> </h2>
                 <div class="sidebar-links">
+
                 {% for page in pages("analysis") %}
-                <h3><a href="{{ page.url }}">
-                    <i class=" {{ page.meta.Icon }}"></i> 
+
+                <a href="{{ page.url }}">
+                <h3>
+
+                    <img src="{{ assets_url }}/svg/{{ page.meta.Icon }}.svg" class="icon" alt="{{ page.description }}">
                 {{ page.title }} 
-                </a></h3>
+                </h3>
+                </a>
 
                 {% endfor %}
                 </div>

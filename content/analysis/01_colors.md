@@ -2,7 +2,7 @@
 Title: Färger
 Description: About Colors
 Template: analysis
-Icon: fas fa-palette
+Icon: palette-solid
 ---
 
 # ![Palette](%base_url%/assets/svg/palette-solid.svg){.icon}  Färger

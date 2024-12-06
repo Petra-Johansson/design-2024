@@ -2,7 +2,7 @@
 Title: Designprinciper
 Description: About Design Principles
 Template: analysis
-Icon: fas fa-book
+Icon: book-solid
 ---
 
 

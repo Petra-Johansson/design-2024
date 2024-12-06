@@ -1,8 +1,8 @@
 ---
 Title: Laddningstid
-Description: About loadingtime
+Description: Page about loadingtime
 Template: analysis
-Icon: fas fa-hourglass-half
+Icon: hourglass-half-regular
 ---
 
 # ![Hourglass](%base_url%/assets/svg/hourglass-half-regular.svg){.icon}  Laddningstid
