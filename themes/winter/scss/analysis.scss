@@ -52,9 +52,6 @@
         margin-right: 0.5rem;
       }
 
-      i {
-        margin-right: 2rem;
-      }
     }
 
     .link {
@@ -113,6 +110,14 @@
       text-align: left;
       text-decoration: underline;
       text-underline-offset: 5px;
+    }
+
+    h3 {
+      display: flex;
+      align-items: center;
+    }
+    a {
+      text-decoration: none;
     }
   }
 

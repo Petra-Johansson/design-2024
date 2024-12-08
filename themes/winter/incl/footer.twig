@@ -3,7 +3,7 @@
        
         {% for social in pages["_meta"].meta.social %}
         <a href="{{ social.url }}" title="{{ social.title }}" role="button" target="_blank">
-            <i class="{{ social.icon }}" aria-hidden="true"></i>
+            <img src="{{ assets_url }}/svg/{{ social.icon }}.svg" class="icon">
             <span class="sr-only">{{ social.title }}</span>
         </a>
         {% endfor %}
@@ -13,7 +13,7 @@
        
         {% for theme in pages["_meta"].meta.theme %}
         <a href="{{ theme.url }}" title="{{ theme.title }}" role="button">
-            <i class="{{ theme.icon }}" aria-hidden="true"></i>
+           <img src="{{ assets_url }}/svg/{{ theme.icon }}.svg" class="icon">
             <span class="sr-only">{{ theme.title }}</span>
         </a>
         {% endfor %}
