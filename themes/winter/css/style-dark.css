@@ -6425,6 +6425,10 @@ img {
 table {
   margin: 2em 0;
 }
+table th {
+  background-color: #333;
+  color: #fff;
+}
 
 strong {
   color: #fff;
@@ -7012,9 +7016,6 @@ pre code {
   width: 100%;
   table-layout: fixed;
 }
-.palette-table th {
-  background-color: #fff;
-}
 .palette-table td {
   width: 20%;
   height: 50px;
@@ -7133,15 +7134,5 @@ pre code {
 }
 
 .nav ul li a {
-  color: #fff;
-}
-
-code,
-th {
-  background-color: #fff;
-  color: #333;
-}
-
-td {
   color: #fff;
 }

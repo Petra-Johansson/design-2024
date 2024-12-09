@@ -58,6 +58,10 @@ img {
 table {
   margin: 2em 0;
 
+  th {
+      background-color: vars.$font-alt-color;
+      color: vars.$font-color;
+    }
 
 }
 strong {

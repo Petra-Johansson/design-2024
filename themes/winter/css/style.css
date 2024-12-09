@@ -6477,6 +6477,10 @@ img {
 table {
   margin: 2em 0;
 }
+table th {
+  background-color: #fff;
+  color: #333;
+}
 
 strong {
   color: #333;
@@ -7011,9 +7015,6 @@ pre code {
   margin-bottom: 2em;
   width: 100%;
   table-layout: fixed;
-}
-.palette-table th {
-  background-color: #333;
 }
 .palette-table td {
   width: 20%;
