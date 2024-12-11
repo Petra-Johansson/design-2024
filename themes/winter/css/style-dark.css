@@ -473,7 +473,8 @@ template {
   transform: scale(1, -1);
 }
 
-.fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {
+.fa-flip-both,
+.fa-flip-horizontal.fa-flip-vertical {
   filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
   transform: scale(-1, -1);
 }
@@ -6582,13 +6583,13 @@ strong {
   padding: 1em;
 }
 .nav ul li:hover {
-  background-color: rgba(196, 171, 224, 0.4);
+  background-color: rgba(196, 171, 224, 0.5);
   font-weight: 600;
   border-radius: 10px 30px;
   box-shadow: 5px 5px 6px #c4abe0;
 }
 .nav .active {
-  background-color: rgba(196, 171, 224, 0.7);
+  background-color: rgba(196, 171, 224, 0.6);
   font-weight: 600;
   border-radius: 10px 30px;
   box-shadow: 5px 5px 6px #c4abe0;
@@ -6671,6 +6672,7 @@ code {
   word-wrap: break-word;
   white-space: pre-wrap;
   overflow-wrap: break-word;
+  color: #333;
 }
 
 pre {
@@ -6818,6 +6820,13 @@ pre code {
   margin-bottom: 3em;
   display: flex;
   align-items: center;
+}
+
+.svg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em 0;
 }
 
 .analysis-spec {
