@@ -10,13 +10,37 @@ Icon: palette-solid
 
 Syftet med denna uppgift är att analysera hur användandet av främst färger, men även typografi, kan påverka intrycket en webbsida ger. Speglar intrycket som ges av detta vad jag tror att respektive sidas syfte och mål är? 
 
+
+
+<div class="svg-container">
+  <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="40">
+    <path
+      d="M0,20 Q50,0 100,20 T200,20 T300,20"
+      fill="none"
+      stroke="#e7def1b0"
+      stroke-width="3"
+    />
+  </svg>
+</div>
+
+
 ## Urval
 
 Jag valde att titta på tre webbplatser inom olika områden: [Csn.se](https://csn.se){.link}, [Svt.se](https://svt.se){.link} samt [ikea.se](https://ikea.se){.link}. 
 Jag valde dessa tre då det är sidor som de flesta av oss troligtvis besökt åtminstone en gång och kanske att de till och med har en design som många direkt känner igen och/eller kan plocka fram ur minnet om man nämner namnen.
 
 
-_________________
+<div class="svg-container">
+  <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="40">
+    <path
+      d="M0,20 Q50,0 100,20 T200,20 T300,20"
+      fill="none"
+      stroke="#e7def1b0"
+      stroke-width="3"
+    />
+  </svg>
+</div>
+
 
 ## Metod
 
@@ -28,7 +52,17 @@ Jag gick sedan över till fliken ["Color Wheel"](https://color.adobe.com/create/
 
 För att plocka ut vilka fonter sidorna använt sig av tittade jag enbart i webbläsaren på *Inspect -> Elements* och letade där upp font-family.  
 
-_________________
+
+<div class="svg-container">
+  <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="40">
+    <path
+      d="M0,20 Q50,0 100,20 T200,20 T300,20"
+      fill="none"
+      stroke="#e7def1b0"
+      stroke-width="3"
+    />
+  </svg>
+</div>
 
 
 ## Resultat
@@ -81,7 +115,16 @@ Som fallback-fonter har de valt ut ett antal som är väldigt lika, samtliga är
 | Fallbacks:    | “Noto sans”, Roboto, “Open Sans”, system-ui, sans-serif |
 
 
-_________________
+<div class="svg-container">
+  <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="40">
+    <path
+      d="M0,20 Q50,0 100,20 T200,20 T300,20"
+      fill="none"
+      stroke="#e7def1b0"
+      stroke-width="3"
+    />
+  </svg>
+</div>
 
 
 ### CSN.se
@@ -131,9 +174,16 @@ Csn använder fonten *"Source sans pro"* genomgående på sin sida. Naturligtvis
 
 
 
-_________________
-
-
+<div class="svg-container">
+  <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="40">
+    <path
+      d="M0,20 Q50,0 100,20 T200,20 T300,20"
+      fill="none"
+      stroke="#e7def1b0"
+      stroke-width="3"
+    />
+  </svg>
+</div>
 
 ### Svt.se
 
@@ -180,9 +230,18 @@ Som föregående har även Svt valt ett antal *sans-serif* fonter som fallback.
 | Fallbacks:    |  Helvetica, Arial, Nimbus Sans L, Bitstream Vera Sans, sans-serif |
 
 
-_________________
 
 
+<div class="svg-container">
+  <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="40">
+    <path
+      d="M0,20 Q50,0 100,20 T200,20 T300,20"
+      fill="none"
+      stroke="#e7def1b0"
+      stroke-width="3"
+    />
+  </svg>
+</div>
 
 ## Analys
 
@@ -201,7 +260,17 @@ När det kommer till respektive sida skulle jag vilja påstå att **Ikea**’s h
 
  **SVT** har en sida vilken känns väldigt okomplicerad, lättillgänglig och seriös med sina färg och typsnittsval. Om man jämför med andra nyhetssidor som till exempel [Aftonbladet](https://aftonbladet.se){.link} eller [Expressen](https://expressen.se){.link}, utstrålar Svt's en större seriositet och ett lugn de andra saknar.
 
-_________________
+<div class="svg-container">
+  <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="40">
+    <path
+      d="M0,20 Q50,0 100,20 T200,20 T300,20"
+      fill="none"
+      stroke="#e7def1b0"
+      stroke-width="3"
+    />
+  </svg>
+</div>
+
 
 ## Referenser
 

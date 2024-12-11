@@ -9,6 +9,20 @@ Icon: hourglass-half-regular
 
 Syftet med denna rapport är att få en större förståelse för vad som påverkar en webbsidas laddningstid och -storlek och hur vi kan påverka den i vårt arbete då vi utvecklar webbplatser. 
 
+
+<div class="svg-container">
+  <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="40">
+    <path
+      d="M0,20 Q50,0 100,20 T200,20 T300,20"
+      fill="none"
+      stroke="#e7def1b0"
+      stroke-width="3"
+    />
+  </svg>
+</div>
+
+
+
 ## Urval
 
 Jag valde tre webbplatser med väldigt olika syften. Det första jag gjorde var att göra ett återbesök till [SVT](https://svt.se) från den första rapporten/analysen. Detta beslut tog jag enbart för att jag var nyfiken på vad en så pass avskalad, men ändå informationsfylld, sida skulle kunna hamna på i mätningarna. 
@@ -17,8 +31,17 @@ Den andra sidan jag valde var [BTH](https://bth.se) - detta för att det kändes
 
 Sist men inte minst, valde jag webshoppen [Lyko](https://lyko.com/sv). Jag misstänkte att den skulle vara ganska tung då det är mycket bilder, banners och interaktiva element på samtliga sidor till skillnad från de två tidigare.  
 
+<div class="svg-container">
+  <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="40">
+    <path
+      d="M0,20 Q50,0 100,20 T200,20 T300,20"
+      fill="none"
+      stroke="#e7def1b0"
+      stroke-width="3"
+    />
+  </svg>
+</div>
 
-_________________
 
 ## Metod
 
@@ -31,13 +54,24 @@ Här får vi även förslag på hur man kan förbättra sin sida för att få et
 I Chrome DevTools har jag under *Network*-tabben tittat på hur mycket data som webbläsare tar emot från servern,i form av nätverksförfrågningar/requests. Här har vi dels “Transferred” men även “Resources” att titta på. Jag valde att, för att få ett så korrekt resultat som möjligt, göra mina mätningar i Inkognito-läge för att undvika att något cachas och därmed kan påverka resultatet.
 
 
-_________________
+
+<div class="svg-container">
+  <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="40">
+    <path
+      d="M0,20 Q50,0 100,20 T200,20 T300,20"
+      fill="none"
+      stroke="#e7def1b0"
+      stroke-width="3"
+    />
+  </svg>
+</div>
+
 
 
 ## Resultat
 
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSeKboN0UD1pAqnvlVpSUl8JIyb8wsx2-BVJ1ugm5e8zvhe4caDRmRix40YV89x1cKNz64USkGpJpua/pubhtml?widget=true&amp;headers=false" class="sheet"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSeKboN0UD1pAqnvlVpSUl8JIyb8wsx2-BVJ1ugm5e8zvhe4caDRmRix40YV89x1cKNz64USkGpJpua/pubhtml?widget=true&amp;headers=false" class="sheet" title="Embedded google sheet"></iframe>
 
 
 ![Svt Snapshot](%base_url%/image/svt-snap.png)
@@ -50,7 +84,18 @@ Gemensamt för båda lägena är att PSI bland annat föreslår att “Reduce un
 
 Sidor jag tittat på: [svt.se](https://svt.se), [Inrikes nyheter](https://www.svt.se/nyheter/inrikes/) & [Om oss](https://omoss.svt.se/).
 
-<hr>
+
+<div class="svg-container">
+  <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="40">
+    <path
+      d="M0,20 Q50,0 100,20 T200,20 T300,20"
+      fill="none"
+      stroke="#e7def1b0"
+      stroke-width="3"
+    />
+  </svg>
+</div>
+
 
 ![BTH Snapshot](%base_url%/image/bth-snap.png)
 
@@ -60,7 +105,18 @@ Kanske skulle man kunna se över vad som faktiskt måste laddas direkt och vad s
 
 Sidor jag tittat på: [Bth.se](https://bth.se), [Program och kurser](https://www.bth.se/utbildning/program-och-kurser/) & [Det här är BTH](https://www.bth.se/om-oss/det-har-ar-bth/).
 
-<hr>
+
+<div class="svg-container">
+  <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="40">
+    <path
+      d="M0,20 Q50,0 100,20 T200,20 T300,20"
+      fill="none"
+      stroke="#e7def1b0"
+      stroke-width="3"
+    />
+  </svg>
+</div>
+
  
  ![Lyko Snapshot](%base_url%/image/lyko-snap.png)
 
@@ -73,8 +129,18 @@ Om vi enbart tittar på Accessibility-kategorin så ser vi att bildelement sakna
 Sidor jag tittat på: [lyko.com/sv](https://lyko.com/sv),  [Nyheter](https://lyko.com/sv/nyheter/products) & [Om Lyko](https://lyko.com/sv/om-lyko).
 
 
-_________________
 
+
+<div class="svg-container">
+  <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="40">
+    <path
+      d="M0,20 Q50,0 100,20 T200,20 T300,20"
+      fill="none"
+      stroke="#e7def1b0"
+      stroke-width="3"
+    />
+  </svg>
+</div>
 
 
 ## Analys
@@ -93,7 +159,18 @@ Om jag ska utse en vinnare i detta test är det solklart SVT som vinner. De hade
 
 
 
-_________________
+
+<div class="svg-container">
+  <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="40">
+    <path
+      d="M0,20 Q50,0 100,20 T200,20 T300,20"
+      fill="none"
+      stroke="#e7def1b0"
+      stroke-width="3"
+    />
+  </svg>
+</div>
+
 
 ## Referenser
 

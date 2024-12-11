@@ -25,6 +25,12 @@
 
 }
 
+    .svg-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 1em 0;
+    }
 
 .analysis-spec {
   display: grid;
@@ -32,13 +38,13 @@
   gap: 2em;
   width: 70vw;
 
+
   .analysis-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0 1em;
     background-color: rgba(vars.$accent-color, 0.2);
-
 
     h1 {
       display: flex;
