@@ -86,7 +86,7 @@ Sidor jag tittat på: [svt.se](https://svt.se), [Inrikes nyheter](https://www.sv
 
 
 <div class="svg-container">
-  <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="40">
+  <svg xmlns="http://www.w3.org/2000/svg" width="65%" height="40">
     <path
       d="M0,20 Q50,0 100,20 T200,20 T300,20"
       fill="none"
@@ -107,7 +107,7 @@ Sidor jag tittat på: [Bth.se](https://bth.se), [Program och kurser](https://www
 
 
 <div class="svg-container">
-  <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="40">
+  <svg xmlns="http://www.w3.org/2000/svg" width="65%" height="40">
     <path
       d="M0,20 Q50,0 100,20 T200,20 T300,20"
       fill="none"

@@ -116,7 +116,7 @@ Som fallback-fonter har de valt ut ett antal som är väldigt lika, samtliga är
 
 
 <div class="svg-container">
-  <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="40">
+  <svg xmlns="http://www.w3.org/2000/svg" width="65%" height="40">
     <path
       d="M0,20 Q50,0 100,20 T200,20 T300,20"
       fill="none"
@@ -175,7 +175,7 @@ Csn använder fonten *"Source sans pro"* genomgående på sin sida. Naturligtvis
 
 
 <div class="svg-container">
-  <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="40">
+  <svg xmlns="http://www.w3.org/2000/svg" width="65%" height="40">
     <path
       d="M0,20 Q50,0 100,20 T200,20 T300,20"
       fill="none"

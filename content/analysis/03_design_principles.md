@@ -52,8 +52,23 @@ Jag valde ut dessa tre sidor och det enda jag hade som "krav" var att det skulle
 
 ## Resultat
 
+Varje sida har analsyerats utifrån följande 5 punkter:
+
+1) Mål och syfte.
+2) Webbplatsens design och vad som kännetecknar den.
+3) Gynnar designen webbplatsens syfte och mål, vilken känsla ger den?
+4) Vilka dsignprinciper märks av?
+5) Är principerna de samma för huvud-/ och undersidor?
+
 
 ### [Bruno Simon - Creative developer ](https://bruno-simon.com/)
+
+1)  Den här sidan är en interaktiv portfoliosida där Bruno Simon visar på att han är en kreativ utvecklare. Sidan visar upp tidigare projekt, anställningar, länkar till github och olika kontaktmöjligheter - även små detaljer som att det finns en fransk flagga, Eiffeltornet och en pin vilket visar på vart han är baserad.
+2)  Designen är väldigt lekfull, innovativ och varm - det märks att han vill visa på sin styrka som “Creative Developer”. Jag tycker absolut att sidan passar en person som vill framhäva just detta. Det är väldigt kreativt jämfört med extremt många andra portfolio-sidor.
+3) De designprinciper jag tänker på, utöver *innovation* som jag redan varit inne på, är främst *rörelse* samt *djup* i och med att man ju faktiskt rör sig, med den lilla bilen, runt på sidan och även som resultat av de många 3D-elementen vilka direkt skapar ett djup.
+4) Trots att sidan är stor och innehållsrik så känns den ändå *balanserad* - kanske för att varje “grupp” av information har sin egen tydliga sektion?
+5) Sidan har inga undersidor utan allt händer på startsidan - sedan finns länkar till diverse sidor beroende på om det är till github, ett liveprojekt eller kontaktvägar.
+
 
 
 ### [Chris Burkard - Fotograf ](https://www.chrisburkard.com/)
@@ -67,7 +82,7 @@ Jag valde ut dessa tre sidor och det enda jag hade som "krav" var att det skulle
 
 
 <div class="svg-container">
-  <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="40">
+  <svg xmlns="http://www.w3.org/2000/svg" width="65%" height="40">
     <path
       d="M0,20 Q50,0 100,20 T200,20 T300,20"
       fill="none"
@@ -115,6 +130,55 @@ Jag valde ut dessa tre sidor och det enda jag hade som "krav" var att det skulle
   </svg>
 </div>
 
+## Analys av min sida
+
+Jag har analyserat min sidan utifrån punkterna 2-5 av de ovan nämnda - och jämfört med de 3 tidigare nämnda webbplatserna.
+
+2)	Min sida skiljer sig från de tidigare nämnda, kanske främst genom att ha en gradient bakgrund där de andra, förutom Bruno Simons, istället har en neutral, ljus bakgrund. Designen är genomgående genom alla undersidor och trots att sidorna har olika syften och innehåll anser jag att de hänger ihop.
+
+3)	Jag skulle nog säga att sidan känns strukturerad och ganska praktisk/funktionell trots den kanske lite utstickande bakgrunden. Det är inte den vackraste skapelsen jag skådat eller skapat - men jag anser att det innehåll som sidorna består av är det som ska ta plats och det får det göra. Självklart hade jag kunnat designa sidan med en neutral bakgrund, men det är mitt default att göra så det var kul att göra något, för mig, annorlunda,
+
+4) Jag skulle säga att min sida är *enhetlig* då jag använder samma färger, typsnitt och nästan identisk layout genomgående på samtliga sidor, försöker nyttja *white space* dels på bredden men även mellan element, *repetition* och *rörelse* - främst med bakgrunden men även de få animationer som finns som vid hover på knappar i navbaren.
+
+5) Jag anser att jag hållit samma design och därmed samma principer genomgående på de olika sidorna. Vilket även övriga till stor del gjort - det som skiljt sig från mängden har varit Chris Burkards webshop och Taylor Swifts Tour-site - vilka båda ligger under andra helt andra URL:er så jag är osäker på om de ens kan räknas som undersidor!
+
+
+### Uppdateringar
+
+
+För att uppdatera min sida efter att ha tittat, läst och analyserat under veckan, kan jag egentligen gå åt två håll: antingen göra sidan mer lekfull och spännande genom att ha mer *rörelse* i stil med Bruno Simon med mer animationer och liknande. 
+
+Eller det motsatta: Fokusera på en lugnare känsla och skapa större *kontraster* och en tydligare *hierarki* mellan olika element genom att applicera en mer neutral, lugn och ljus bakgrund och förstora rubriker och fortsatt ha en mörk textfärg.	
+
+Jag skulle, oavsett åt vilket håll jag går mot, kunna skapa en bättre *balans* och utöka *utrymmet* mellan element ytterligare vilket troligtvis skulle göra all information lite mer lättläst.
+
+
+<div class="svg-container">
+  <svg xmlns="http://www.w3.org/2000/svg" width="65%" height="40">
+    <path
+      d="M0,20 Q50,0 100,20 T200,20 T300,20"
+      fill="none"
+      stroke="#e7def1b0"
+      stroke-width="3"
+    />
+  </svg>
+</div>
+
+
+De uppdateringar jag valde att göra gick mer mot det andra hållet: det vill säga att skapa en större tydlighet och ett lugnare intryck. Att applicera en mer lekfull ton med animationer etcetera kändes inte som det mest passande då sidorna främst består av långa textstycken och information. 
+
+
+
+<div class="svg-container">
+  <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="40">
+    <path
+      d="M0,20 Q50,0 100,20 T200,20 T300,20"
+      fill="none"
+      stroke="#e7def1b0"
+      stroke-width="3"
+    />
+  </svg>
+</div>
 
 ## Referenser
 
