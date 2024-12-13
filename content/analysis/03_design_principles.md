@@ -15,9 +15,9 @@ Icon: book-solid
 Jag valde ut dessa tre sidor och det enda jag hade som "krav" var att det skulle vara tre personer som sysslar med olika saker och därmed bör ha lite olika take på hur de vill presentera sig själva och sina arbeten.
 
 
-- [Bruno Simon, Creative developer ](https://bruno-simon.com/)
-- [Chris Burkard, Photographer ](https://www.chrisburkard.com/)
-- [Taylor Swift, Artist ](https://www.taylorswift.com)
+- [Bruno Simon - Creative developer ](https://bruno-simon.com/)
+- [Chris Burkard - Photographer ](https://www.chrisburkard.com/)
+- [Taylor Swift - Artist ](https://www.taylorswift.com)
 
 
 

@@ -4,11 +4,13 @@
     {% include 'incl/nav.twig' %}
 
     <div class="main" role="main">
+    <div class="filter">
         {{ content }}
         
         {% if current_page.id == 'index' %}
             {% include 'incl/presentation.twig' %}
         {% endif %}
+    </div>
     </div>
     
     {% include 'incl/footer.twig' %}

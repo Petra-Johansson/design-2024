@@ -27,14 +27,15 @@
                 </aside>
                 
                  <article class="analysis-content">
-                 {{content}}
+                    {% set content_with_blank = content|replace({'<a href="http': '<a target="_blank" href="http'}) %}
+                        {{ content_with_blank|raw }}
                 </article>
             </div>
 
        {% else %}
             <div class="analysis-landing">
                 <article class="analysis-content">
-                    {{ content }}
+                {{ content }}
                 </article>
             </div>
         {% endif %}

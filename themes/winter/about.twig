@@ -4,8 +4,10 @@
     {% include 'incl/nav.twig' %}
 
     <div class="main about-main" role="main">
-        {{ content }}
-        
+    <div class="filter">
+         {% set content_with_blank = content|replace({'<a href="http': '<a target="_blank" href="http'}) %}
+            {{ content_with_blank|raw }}    
+            </div>
     </div>
     
     {% include 'incl/footer.twig' %}

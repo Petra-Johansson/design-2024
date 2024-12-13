@@ -15,13 +15,13 @@ html {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    background-image: linear-gradient(to bottom right,
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom right,
       vars.$accent-color,
       vars.$bg-alt-color,
       vars.$bg-color );
-  }
+}
 
 * {
   color: vars.$font-color;
@@ -34,10 +34,27 @@ h2,
 h3,
 h4 {
   font-family: vars.$heading-font;
-  font-weight: 500;
   margin-bottom: 0.8em;
   margin-top: 1em;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.6px;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 900;
+}
+
+h2,
+h3 {
+  font-weight: 600;
+}
+
+a {
+  font-family: vars.$heading-font;
+
+  :hover {
+    font-style: oblique;
+  }
 }
 
 ol,
@@ -59,15 +76,17 @@ table {
   margin: 2em 0;
 
   th {
-      background-color: vars.$font-alt-color;
-      color: vars.$font-color;
-    }
+    background-color: vars.$font-alt-color;
+    color: vars.$font-color;
+  }
 
 }
+
 strong {
   color: vars.$font-color;
   font-style: italic;
 }
+
 .header,
 .footer {
   flex: 0 0 auto;
@@ -91,11 +110,17 @@ strong {
   h2 {
     text-align: center;
   }
+
+  .filter {
+    background-color: vars.$filter-color;
+    padding: 2em;
+  }
 }
 
 .about-main {
   width: 75%;
 }
+
 
 @media (max-width: 767px) {
   .main {

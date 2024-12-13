@@ -19,41 +19,42 @@
     {% include 'incl/nav.twig' %}
 
     <div class="main" role="main">
+        <div class="filter">
         {{ content }}
-<article class="gallery">
-        <h1> <span class="greeting">&#9758;</span> Galleri </h1>
-<p>Dessa bilder från Pixabay använde jag i den föregående kursen, webtec - då skalade jag dock om alla för att vara i korrekt storlek på en gång. Det har jag inte gjort på alla den här gången utan vissa är fortfarande i sin originalstorlek. </p>
+            <article class="gallery">
+                <h1> <span class="greeting">&#9758;</span> Galleri </h1>
+                    <p>Dessa bilder från Pixabay använde jag i den föregående kursen, webtec - då skalade jag dock om alla för att vara i korrekt storlek på en gång. Det har jag inte gjort på alla den här gången utan vissa är fortfarande i sin originalstorlek. </p>
        
        
-       <div class="gallery-grid">
-            {% for pic in pictures %}
-                <a href="{{ base_url }}/image/gallery/{{ pic }}" target="_blank">
-                   <picture>
+                <div class="gallery-grid">
+                    {% for pic in pictures %}
+                        <a href="{{ base_url }}/image/gallery/{{ pic }}" target="_blank">
+                            <picture>
 
-                    <source media="(min-width: 768px)"  
-                        srcset="{{ base_url }}/image/gallery/{{ pic }}?w=400 400w, 
-                                {{ base_url }}/image/gallery/{{ pic }}?w=800 800w"
-                                sizes="(min-width: 768px) calc((100vw - 2em) / 3)">
+                                <source media="(min-width: 768px)"  
+                                    srcset="{{ base_url }}/image/gallery/{{ pic }}?w=400 400w, 
+                                    {{ base_url }}/image/gallery/{{ pic }}?w=800 800w"
+                                    sizes="(min-width: 768px) calc((100vw - 2em) / 3)" loading="lazy">
 
-                    <source media="(max-width: 767px)" 
-                        srcset="{{ base_url }}/image/gallery/{{ pic }}?w=480% 480w, 
+                            <source media="(max-width: 767px)" 
+                                srcset="{{ base_url }}/image/gallery/{{ pic }}?w=480% 480w, 
                                 {{ base_url }}/image/gallery/{{ pic }}?w=320 320w"
-                                sizes="(max-width: 767px) 80vw">
-                    <img 
-                    src="{{ base_url }}/image/gallery/{{ pic }}" 
-                    alt="Picture representing the month of {{ pic|split('.')|first|capitalize }}" 
-                    >
-                </picture>
-                </a>
-            {% endfor %}
+                                sizes="(max-width: 767px) 80vw" loading="lazy">
+                            <img 
+                                src="{{ base_url }}/image/gallery/{{ pic }}" 
+                                alt="Picture representing the month of {{ pic|split('.')|first|capitalize }}" 
+                               loading="lazy" >
+                            </picture>
+                        </a>
+                    {% endfor %}
+                </div>
+
+       <div class="embed-container">
+                <iframe src="https://www.youtube-nocookie.com/embed/C_UnFpUd3RI?rel=0" frameborder="0" allowfullscreen title="video embedded from youtube"></iframe>
+            </div>
+         
+            </article>
         </div>
-
-    
-     <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/C_UnFpUd3RI?rel=0" frameborder="0" allowfullscreen></iframe>
-    </div>
-    </article>
-
     </div>
 
     {% include 'incl/footer.twig' %}
