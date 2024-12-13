@@ -6415,7 +6415,7 @@ ul {
 
 p,
 li {
-  margin-bottom: 0.6em;
+  margin-bottom: 0.8em;
   max-width: 75ch;
 }
 
@@ -6852,6 +6852,9 @@ pre code {
   height: 1em;
   width: 1em;
   margin-right: 0.5rem;
+}
+.analysis-spec .analysis-content ul li {
+  max-width: 40ch;
 }
 .analysis-spec .analysis-content .link {
   font-weight: 500;

@@ -57,8 +57,11 @@
         width: 1em;
         margin-right: 0.5rem;
       }
-
+      
     }
+ul li {
+  max-width: 40ch;
+}
 
     .link {
       font-weight: 500;

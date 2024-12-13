@@ -15,9 +15,9 @@ Icon: book-solid
 Jag valde ut dessa tre sidor och det enda jag hade som "krav" var att det skulle vara tre personer som sysslar med olika saker och därmed bör ha lite olika take på hur de vill presentera sig själva och sina arbeten.
 
 
-1) [Bruno Simon, Creative developer ](https://bruno-simon.com/)
-2) [Chris Burkard, Photographer ](https://www.chrisburkard.com/)
-3) [Taylor Swift, Artist ](https://www.taylorswift.com)
+- [Bruno Simon, Creative developer ](https://bruno-simon.com/)
+- [Chris Burkard, Photographer ](https://www.chrisburkard.com/)
+- [Taylor Swift, Artist ](https://www.taylorswift.com)
 
 
 
@@ -35,6 +35,13 @@ Jag valde ut dessa tre sidor och det enda jag hade som "krav" var att det skulle
 
 
 ## Metod
+
+För att analysera sidorna utgick jag främst från [Canva’s text om Designprinciper](https://www.canva.com/learn/design-elements-principles/) men även de föreläsningar vi haft samt utbildingsmaterialet som tillhandahållits/rekomenderats:
+
+
+- [Boken “Beautiful web design”](https://dbwebb.se/kunskap/boken-the-principles-of-beautiful-web-design) och specifikt kapitelen om Texture och Layout and Composition.
+- Denna text om [Accessbility från MDN](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility)
+- Guiden om [Design](https://dbwebb.se/guide/design-med-html5-och-css3)
 
 
 
@@ -118,6 +125,14 @@ Varje sida har analsyerats utifrån följande 5 punkter:
 ## Analys
 
 
+Det var främst en sida som stack ut - och det var självklart Bruno Simons. Till skillnad från de andra som mer tydligt hade en mer linjär design var denna väldigt flytande och, för mig, mest intressant och minnesvärd. Stilen hade dock inte kunnat appliceras på till exempel Taylor Swifts sida - då hade det känts väldigt avigt och krockat med både person och syfte.
+Alla sidorna har varit tydliga i vad de vill förmedla och de har gjort det på sätt som jag skulle säga känns passande för den person som står bakom.
+
+Alla har varit duktiga med att använda white space/utrymme och även repetition vilket gjorde att även en sida som Bruno Simons interaktiva portfolio, inte kändes “cluttered” trots att det är mycket som händer och finns att titta på. 
+
+Jag tror att det som är avgörande för en bra vs dålig design när det kommer till att applicera och notera några av de 20 designprinciperna, är den initiala känslan. Det är oftast lättare att säga att specifika saker INTE känns bra/rätt än det motsatta. För även om en person bryter mot principerna (vilket dock också är en av principerna..), men gör det bra - kan känslan ändå vara att det är en bra design!
+
+
 
 <div class="svg-container">
   <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="40">
@@ -167,6 +182,13 @@ Jag skulle, oavsett åt vilket håll jag går mot, kunna skapa en bättre *balan
 
 De uppdateringar jag valde att göra gick mer mot det andra hållet: det vill säga att skapa en större tydlighet och ett lugnare intryck. Att applicera en mer lekfull ton med animationer etcetera kändes inte som det mest passande då sidorna främst består av långa textstycken och information. 
 
+Jag valde att:
+1) försöka få in mer *white space/utrymme*. 
+2) försöka skapa en tydligare *hierarki*.
+3) skapa en tydligare *kontrast* (framförallt i light mode).
+
+För att öka på white space har jag i huvudsak ökat margin mellan paragrafer, list-element och gap mellan bilder i galleriet.
+Hierarki och även kontraster har ökats genom att skapa en större skillnad i font-size och dämpa bakgrunden något.
 
 
 <div class="svg-container">
@@ -182,7 +204,7 @@ De uppdateringar jag valde att göra gick mer mot det andra hållet: det vill s�
 
 ## Referenser
 
-
+Se punkten för *Metod*.
 
 ## Övrigt
 
