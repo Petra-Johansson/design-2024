@@ -1,36 +1,36 @@
 @use 'variables' as vars;
 
 .footer {
-  display: flex;
-  justify-content: space-around;
-  border-top: 1px solid #222;
-  padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-top: 1px solid #222;
+    padding: 1em;
 
-  a {
-    color: vars.$font-color;
-  }
+    .link-container {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+  
+      a {
+        color: vars.$font-color;
+      }
 
-  .social,
-  .theme {
-    font-size: 1.3em;
+    .social,
+    .theme {
+      font-size: 1.3em;
 
-    .fab,
-    .fas,
-    .fa {
-      color: vars.$font-alt-color;
-      font-weight: 700;
+      a {
+        text-decoration: none;
+        padding: 0.6em;
+      }
     }
-
-    a {
-      text-decoration: none;
-      padding: 0.6em;
-    }
   }
-
 }
 
 @media screen and (max-width: 768px) {
-  .footer {
+  .link-container {
     flex-direction: column;
     align-items: center;
     text-align: center;

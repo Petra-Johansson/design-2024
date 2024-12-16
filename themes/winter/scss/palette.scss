@@ -23,6 +23,7 @@
         opacity: 0;
         transition: 0.2s;
         position: absolute;
+        margin-left: .4em;
       }
 
       &:hover .usage {
@@ -51,14 +52,14 @@
   td {
     &:nth-child(1) {
       background-color: vars.$font-color;
+      span {
+        color: vars.$font-alt-color;
+      }
     }
 
     &:nth-child(2) {
       background-color: vars.$font-alt-color;
 
-      span {
-        color: vars.$font-color;
-      }
     }
 
     &:nth-child(3) {
@@ -71,6 +72,9 @@
 
     &:nth-child(5) {
       background-color: vars.$accent-color;
+      span {
+          color: vars.$font-alt-color;
+        }
     }
   }
 }
@@ -79,14 +83,13 @@
   td {
     &:nth-child(1) {
       background-color: vars.$font-alt-color;
-
-      span {
-        color: vars.$font-color;
-      }
     }
 
     &:nth-child(2) {
       background-color: vars.$font-color;
+      span {
+          color: vars.$font-alt-color;
+        }
     }
 
     &:nth-child(3) {
@@ -99,6 +102,9 @@
 
     &:nth-child(5) {
       background-color: vars.$accent-color;
+      span {
+          color: vars.$font-alt-color;
+        }
     }
   }
 

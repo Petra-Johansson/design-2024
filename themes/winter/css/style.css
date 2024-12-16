@@ -6640,34 +6640,32 @@ strong {
 }
 .footer {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   border-top: 1px solid #222;
   padding: 1em;
 }
-.footer a {
+.footer .link-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.footer .link-container a {
   color: #333;
 }
-.footer .social,
-.footer .theme {
+.footer .link-container .social,
+.footer .link-container .theme {
   font-size: 1.3em;
 }
-.footer .social .fab,
-.footer .social .fas,
-.footer .social .fa,
-.footer .theme .fab,
-.footer .theme .fas,
-.footer .theme .fa {
-  color: #fff;
-  font-weight: 700;
-}
-.footer .social a,
-.footer .theme a {
+.footer .link-container .social a,
+.footer .link-container .theme a {
   text-decoration: none;
   padding: 0.6em;
 }
 
 @media screen and (max-width: 768px) {
-  .footer {
+  .link-container {
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -6692,6 +6690,9 @@ code {
   word-wrap: break-word;
   white-space: pre-wrap;
   overflow-wrap: break-word;
+  color: #333;
+}
+code strong {
   color: #333;
 }
 
@@ -6914,9 +6915,11 @@ a {
 .analysis-spec .analysis-sidebar h2 {
   text-align: left;
 }
-.analysis-spec .analysis-sidebar h3 {
+.analysis-spec .analysis-sidebar p {
   display: flex;
   align-items: center;
+  text-decoration: underline;
+  text-underline-offset: 7px;
 }
 .analysis-spec .analysis-sidebar a {
   text-decoration: none;
@@ -7056,6 +7059,7 @@ a {
   opacity: 0;
   transition: 0.2s;
   position: absolute;
+  margin-left: 0.4em;
 }
 .palette-table td:hover .usage {
   opacity: 1;
@@ -7078,11 +7082,11 @@ a {
 .winter-palette td:nth-child(1) {
   background-color: #333;
 }
+.winter-palette td:nth-child(1) span {
+  color: #fff;
+}
 .winter-palette td:nth-child(2) {
   background-color: #fff;
-}
-.winter-palette td:nth-child(2) span {
-  color: #333;
 }
 .winter-palette td:nth-child(3) {
   background-color: #8190de;
@@ -7093,15 +7097,18 @@ a {
 .winter-palette td:nth-child(5) {
   background-color: #c4abe0;
 }
+.winter-palette td:nth-child(5) span {
+  color: #fff;
+}
 
 .dark-palette td:nth-child(1) {
   background-color: #fff;
 }
-.dark-palette td:nth-child(1) span {
-  color: #333;
-}
 .dark-palette td:nth-child(2) {
   background-color: #333;
+}
+.dark-palette td:nth-child(2) span {
+  color: #fff;
 }
 .dark-palette td:nth-child(3) {
   background-color: #8190de;
@@ -7111,6 +7118,9 @@ a {
 }
 .dark-palette td:nth-child(5) {
   background-color: #c4abe0;
+}
+.dark-palette td:nth-child(5) span {
+  color: #fff;
 }
 
 /* palettes related to reports */

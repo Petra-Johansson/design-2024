@@ -13,15 +13,14 @@
                 <div class="sidebar-links">
 
                 {% for page in pages("analysis") %}
-
+                <p>
                 <a href="{{ page.url }}">
-                <h3>
-
+                
                     <img src="{{ assets_url }}/svg/{{ page.meta.Icon }}.svg" class="icon" alt="{{ page.description }}">
                 {{ page.title }} 
-                </h3>
+              
                 </a>
-
+                </p>
                 {% endfor %}
                 </div>
                 </aside>

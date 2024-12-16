@@ -1,24 +1,24 @@
 ---
-Title: About
+Title: Om
 Description: About page
 Template: about
 ---
 
-# <span class="greeting">&#9758;</span> About this page
+# <span class="greeting">&#9758;</span> Om sidan
 
-On this page I will write about the development of this website. First of, I will present the techniques we are currently working with.
+På den här sidan kommer jag presentera de tekniker vi använder för att bygga våra sidor:
 
-## Techniques:
+## Tekniker:
 
-- **Pico CMS** to handle Markdown files and transform them into HTML.
-- **Twig** to create templates.
-- **SCSS** to write our CSS in a modular way and trying to use variables. We will also use more SCSS specific functions nd mixins.
-- To add a more personal touch, I am using two fonts from **Google fonts**: _"Poppins"_ for headings and _"Figtree"_ for parapgraphs, links etcetera.
-- I am also using icons from **Font Awesome** aswell as Unicode Icons from **symbl.cc**.
+- **Pico CMS** för att hantera Markdown-filer och omvandla dem till HTML.
+- **Twig** för att skapa (layout) mallar och även skriva HTML.
+- **SCSS** ör att skriva vår CSS på ett modulärt sätt och använda variabler. Vi kommer också att använda fler SCSS-specifika funktioner och kanske även mixins.
+- För att ge en mer personlig touch använder jag två typsnitt från **Google fonts**: _"Playfair Display"_ för rubriker och även länkar, och _"Figtree"_ för paragrafer.
+- Jag kommer även använda SVG's hämtade från **Font Awesome** samt Unicode Icons från **symbl.cc**.
 
 <div class="palette-div">
 
-<h3>This is the color palette I am using for the lighter theme I am calling "Winter":</h3>
+<h3>Färgpaletten jag använder har jag valt att kalla "Winter":</h3>
 
 <table class="palette-table winter-palette">
 <tr>
@@ -37,7 +37,7 @@ On this page I will write about the development of this website. First of, I wil
 </tr>
 </table>
 
-<h3>This is the color palette I am using for the dark theme:</h3>
+<h3>För det mörka temat använder jag en nästan identisk:</h3>
 
 <table class="palette-table dark-palette">
 <tr>
